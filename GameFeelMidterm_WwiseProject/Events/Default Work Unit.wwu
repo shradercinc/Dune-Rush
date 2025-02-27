@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{070058EA-17C7-499C-B569-5CB8204E286C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{070058EA-17C7-499C-B569-5CB8204E286C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Drill" ID="{E1C58501-830E-437F-851E-7DE11CCC73F8}">
+					<ChildrenList>
+						<Action Name="" ID="{BB904BCB-E693-463B-B23E-938880966FD1}" ShortID="444569829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drill" ID="{D30B1BB3-063F-433A-BA7C-C8DBE4A1D46B}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Drill" ID="{6CF4C822-3D8C-4011-83B9-08C1161DC921}">
+					<ChildrenList>
+						<Action Name="" ID="{62BB4141-465A-4380-BEB5-9A69E5E2F7DB}" ShortID="1005100884">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drill" ID="{D30B1BB3-063F-433A-BA7C-C8DBE4A1D46B}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fuel" ID="{B16570A7-F8F4-41A9-9DB7-EBA811472980}">
+					<ChildrenList>
+						<Action Name="" ID="{DA4083A9-379E-4F05-9EB9-D7DA65F1B0A5}" ShortID="556514039">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fuel" ID="{D4D512C9-8DD5-4148-B150-CF6657C687F3}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Treasure" ID="{3809F569-6346-434F-95F9-C2E3CF80F51D}">
+					<ChildrenList>
+						<Action Name="" ID="{4A4F5EA0-5D9C-4568-BCF2-3B34368D9695}" ShortID="1065810933">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Treasure" ID="{10FD7F91-F72A-489B-935C-46A1DCDD40CE}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

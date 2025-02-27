@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	376381163	Stop_Drill			\Default Work Unit\Stop_Drill	
+	2958894185	Play_Treasure			\Default Work Unit\Play_Treasure	
+	3364403426	Play_Fuel			\Default Work Unit\Play_Fuel	
+	4076093797	Play_Drill			\Default Work Unit\Play_Drill	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	401132180	Drill	C:\Users\coles\OneDrive\Desktop\Midterm\GameFeelMidterm\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Drill_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drill		1411296
+	403842014	Treasure	C:\Users\coles\OneDrive\Desktop\Midterm\GameFeelMidterm\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Treasure_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Treasure		264696
+	883538488	Fuel	C:\Users\coles\OneDrive\Desktop\Midterm\GameFeelMidterm\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Fuel_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel		100644
+

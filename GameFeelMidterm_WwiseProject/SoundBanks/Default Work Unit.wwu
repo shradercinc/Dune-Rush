@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4D7A6A7-3998-4B50-8C6A-F1812BAFCF9E}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C4D7A6A7-3998-4B50-8C6A-F1812BAFCF9E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundEffects" ID="{9CD7F514-A105-40F4-A2B4-9F124D83D069}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Drill" ID="{6CF4C822-3D8C-4011-83B9-08C1161DC921}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fuel" ID="{B16570A7-F8F4-41A9-9DB7-EBA811472980}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Treasure" ID="{3809F569-6346-434F-95F9-C2E3CF80F51D}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drill" ID="{E1C58501-830E-437F-851E-7DE11CCC73F8}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

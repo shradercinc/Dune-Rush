@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{78708005-F771-4AFA-A99E-2A2680DD3D89}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{78708005-F771-4AFA-A99E-2A2680DD3D89}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Drill" ID="{D30B1BB3-063F-433A-BA7C-C8DBE4A1D46B}" ShortID="866213424">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Drill" ID="{BC45C5AB-75F9-49A6-BEBA-EFB8A82B4A8E}">
+							<Language>SFX</Language>
+							<AudioFile>Drill.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="401132180"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Drill" ID="{BC45C5AB-75F9-49A6-BEBA-EFB8A82B4A8E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Fuel" ID="{D4D512C9-8DD5-4148-B150-CF6657C687F3}" ShortID="594303207">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fuel" ID="{FE87A6DB-7C69-435F-8296-69587F74393D}">
+							<Language>SFX</Language>
+							<AudioFile>Fuel.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="883538488"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fuel" ID="{FE87A6DB-7C69-435F-8296-69587F74393D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Treasure" ID="{10FD7F91-F72A-489B-935C-46A1DCDD40CE}" ShortID="172600712">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Treasure" ID="{D0184F9C-07DA-485C-B5C0-09D3642368CC}">
+							<Language>SFX</Language>
+							<AudioFile>Treasure.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="403842014"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Treasure" ID="{D0184F9C-07DA-485C-B5C0-09D3642368CC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
