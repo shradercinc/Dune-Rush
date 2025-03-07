@@ -6,38 +6,52 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
+using MyBox;
+using UnityEditor;
 
 public class DrillPlayerMovement : MonoBehaviour
 {
     PlayerInput myPlayerInput;
     float inputX;
     Rigidbody2D rb;
+    [Foldout("Speed Variables", true)]
     [SerializeField] float speed, gravity, jumpStartingPush, jumpHeldTimerMax, fallSpeedMax, jumpPreloadTimerMax, coyoteTimerMax, apexTimerMax;
     [SerializeField] float aimTurnSpeed, AimTimeMax, slamSpeed, initialSlamSpeed, drillSpeedRec, drillAcceleration, drillStartSpeed, drillSpeedMax, drillTurnSpeed, rotationCorrection, DrillVerticalBoost, DrillBoostPower, drillSpeedBoostConversion, Friction, reboundEfficiency, reboundPenalty, fuelMax, fuelBoost, slamFuelConsumption;
     [SerializeField] Vector2 velocity;
+
     bool jumpHeld, jumpTriggered, apexReached, enteredPlatformJumpNotResetYet;
     bool onPlatform, jumping;
     public bool canSlam, slamAiming, drilling;
     public bool slamming;
     float jumpHeldTimer, jumpPreloadTimer, coyoteTimer, apexTimer, drillSpeed, Momentum, AimTimer, fuel, particleDelayTimer, platformsEntered;
 
+    [Foldout("Drillbit Visuals", true)]
     [SerializeField] GameObject drillBit;
     [SerializeField] float offSetXMax, offSetYMax, rotationMax, speedShakeRatio;
 
     float gold = 0;
+    [Foldout("Score")]
     [SerializeField] TMP_Text scoreText;
 
+    [Foldout("Particle", true)]
     [SerializeField] GameObject particle;
+    [SerializeField] Color particleColor;
+    [SerializeField] Color ExhaustColor = new Color(0.1f, 0.1f, 0.1f, 1);
+    [SerializeField] Color ExhaustColorBloom;
+    [SerializeField] float particleDelayMax, particleCount;
 
+    [Foldout("Bar Visuals")]
     [SerializeField] Image StaminaBar, fuelBar;
+
+
     [SerializeField] BoxCollider2D footBoxCollider;
     CapsuleCollider2D capsuleCollider;
 
-    [SerializeField] Color particleColor;
-    [SerializeField] float particleDelayMax, particleCount;
+
 
     [SerializeField] TMP_Text gameOver;
 
+    [Foldout("Sounds", true)]
     [SerializeField] AK.Wwise.Event drillSound;
     [SerializeField] AK.Wwise.Event drillEnd;
     [SerializeField] AK.Wwise.Event treasureSound;
@@ -107,7 +121,10 @@ public class DrillPlayerMovement : MonoBehaviour
                 canSlam = false;
                 slamAiming = false;
                 slamming = true;
-
+                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y - 1, drillBit.transform.localPosition.z - 2));
+                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y + 1, drillBit.transform.localPosition.z - 2));
+                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 2));
+                createParticles(particleCount * 2, ExhaustColorBloom, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 1));
                 fuel -= slamFuelConsumption;
                 float boostAngle = (transform.localEulerAngles.z - 90) * Mathf.Deg2Rad;
                 float boostY = Mathf.Sin(boostAngle);
