@@ -27,11 +27,13 @@ public class DrillPlayerMovement : MonoBehaviour
 
     [Foldout("Drillbit Visuals", true)]
     [SerializeField] GameObject drillBit;
+    [SerializeField] GameObject drillBlades;
     [SerializeField] float offSetXMax, offSetYMax, rotationMax, speedShakeRatio;
 
     float gold = 0;
     [Foldout("Score")]
     [SerializeField] TMP_Text scoreText;
+    [SerializeField] GameOverController LevelGameOverCon;
 
     [Foldout("Particle", true)]
     [SerializeField] GameObject particle;
@@ -67,7 +69,7 @@ public class DrillPlayerMovement : MonoBehaviour
         AimTimer = AimTimeMax;
         fuel = fuelMax;
         scoreText.text = "Gold: " + gold + "$";
-        gameOver.gameObject.SetActive(false);
+        //gameOver.gameObject.SetActive(false);
     }
 
     //all our input logic and one-time actions that are based on inputs are in update
@@ -155,7 +157,8 @@ public class DrillPlayerMovement : MonoBehaviour
             {
                 if (drillSpeed == 0)
                 {
-                    gameOver.gameObject.SetActive(true);
+                    LevelGameOverCon.startGameOver(gold.RoundToInt());
+                    //gameOver.gameObject.SetActive(true);
                     drillEnd.Post(gameObject);
                 }
 
@@ -196,6 +199,7 @@ public class DrillPlayerMovement : MonoBehaviour
         //lower these timers at the end of each frame
         jumpPreloadTimer -= Time.deltaTime;
         coyoteTimer -= Time.deltaTime;
+        //drillBlades.transform.position = drillBit.transform.position - Vector3.back;
     }
 
     void shaking()
