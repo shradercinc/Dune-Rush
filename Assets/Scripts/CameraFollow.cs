@@ -19,29 +19,38 @@ public class CameraFollow : MonoBehaviour
 
     private void Update()
     {
-        if (playerControl.slamAiming)
+        if (playerControl.fuel > 0 && playerControl.drillSpeed > 0) 
         {
-            float offSetX = Random.Range(-chargeShakeMax, chargeShakeMax);
-            float offSetY = Random.Range(-chargeShakeMax, chargeShakeMax);
-            subCamera.transform.localPosition = new Vector3(offSetX, offSetY, 0);
+            if (playerControl.slamAiming)
+            {
+                float offSetX = Random.Range(-chargeShakeMax, chargeShakeMax);
+                float offSetY = Random.Range(-chargeShakeMax, chargeShakeMax);
+                subCamera.transform.localPosition = new Vector3(offSetX, offSetY, 0);
 
-            float angle = Random.Range(-chargeAngleMax, chargeAngleMax);
-            subCamera.transform.localRotation = Quaternion.Euler(0, 0, angle);
-        }
-        else if (playerControl.drilling)
-        {
-            float offSetX = Random.Range(-drillShakeMax, drillShakeMax);
-            float offSetY = Random.Range(-drillShakeMax, drillShakeMax);
-            subCamera.transform.localPosition = new Vector3(offSetX, offSetY, 0);
+                float angle = Random.Range(-chargeAngleMax, chargeAngleMax);
+                subCamera.transform.localRotation = Quaternion.Euler(0, 0, angle);
+            }
+            else if (playerControl.drilling)
+            {
+                float offSetX = Random.Range(-drillShakeMax, drillShakeMax);
+                float offSetY = Random.Range(-drillShakeMax, drillShakeMax);
+                subCamera.transform.localPosition = new Vector3(offSetX, offSetY, 0);
 
-            float angle = Random.Range(-drillAngleMax, drillAngleMax);
-            subCamera.transform.localRotation = Quaternion.Euler(0, 0, angle);
+                float angle = Random.Range(-drillAngleMax, drillAngleMax);
+                subCamera.transform.localRotation = Quaternion.Euler(0, 0, angle);
+            }
+            else
+            {
+                subCamera.transform.localPosition = Vector3.zero;
+                subCamera.transform.localRotation = Quaternion.identity;
+            }
         }
         else
         {
             subCamera.transform.localPosition = Vector3.zero;
             subCamera.transform.localRotation = Quaternion.identity;
         }
+
 
     }
 

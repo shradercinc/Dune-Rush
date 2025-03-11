@@ -15,6 +15,7 @@ public class DrillPlayerMovement : MonoBehaviour
     float inputX;
     Rigidbody2D rb;
     [Foldout("Speed Variables", true)]
+
     [SerializeField] float speed, gravity, jumpStartingPush, jumpHeldTimerMax, fallSpeedMax, jumpPreloadTimerMax, coyoteTimerMax, apexTimerMax;
     [SerializeField] float aimTurnSpeed, AimTimeMax, slamSpeed, initialSlamSpeed, drillSpeedRec, drillAcceleration, drillStartSpeed, drillSpeedMax, drillTurnSpeed, rotationCorrection, DrillVerticalBoost, DrillBoostPower, drillSpeedBoostConversion, Friction, reboundEfficiency, reboundPenalty, fuelMax, fuelBoost, slamFuelConsumption;
     [SerializeField] Vector2 velocity;
@@ -23,7 +24,8 @@ public class DrillPlayerMovement : MonoBehaviour
     bool onPlatform, jumping;
     public bool canSlam, slamAiming, drilling;
     public bool slamming;
-    float jumpHeldTimer, jumpPreloadTimer, coyoteTimer, apexTimer, drillSpeed, Momentum, AimTimer, fuel, particleDelayTimer, platformsEntered;
+    float jumpHeldTimer, jumpPreloadTimer, coyoteTimer, apexTimer, Momentum, AimTimer, particleDelayTimer, platformsEntered;
+    public float fuel, drillSpeed;
 
     [Foldout("Drillbit Visuals", true)]
     [SerializeField] GameObject drillBit;
@@ -123,8 +125,8 @@ public class DrillPlayerMovement : MonoBehaviour
                 canSlam = false;
                 slamAiming = false;
                 slamming = true;
-                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y - 1, drillBit.transform.localPosition.z - 2));
-                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y + 1, drillBit.transform.localPosition.z - 2));
+                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y - 5, drillBit.transform.localPosition.z - 2));
+                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y + 5, drillBit.transform.localPosition.z - 2));
                 createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 2));
                 createParticles(particleCount * 2, ExhaustColorBloom, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 1));
                 fuel -= slamFuelConsumption;
