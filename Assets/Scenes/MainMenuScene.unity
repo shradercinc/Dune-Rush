@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a766f9b8d1e3bf4c837b35f808bbedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSize: {x: 0.2, y: 0.2, z: 1}
+  hoverSize: 1.2
   SceneName: MainLevelScene
 --- !u!1 &1261636980
 GameObject:

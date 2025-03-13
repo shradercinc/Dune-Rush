@@ -9,19 +9,21 @@ public class MenuController : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 {
     protected bool isOver = false;
 
-    [SerializeField] protected Vector3 hoverSize;
+    [SerializeField] protected float hoverSize;
+    protected Vector3 baseSize;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        print(transform.localScale);
+        baseSize = transform.localScale;
     }
 
     public void OnPointerEnter(PointerEventData data)
     {
         print("enter");
         isOver = true;
-        transform.localScale = Vector3.one + hoverSize;
+        transform.localScale = baseSize * hoverSize;
 
 
     }
@@ -29,7 +31,7 @@ public class MenuController : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     {
         print("exit");
         isOver = false;
-        transform.localScale = Vector3.one;
+        transform.localScale = baseSize;
 
     }
 

@@ -22,8 +22,8 @@ public class DrillPlayerMovement : MonoBehaviour
 
     bool jumpHeld, jumpTriggered, apexReached, enteredPlatformJumpNotResetYet;
     bool onPlatform, jumping;
-    public bool canSlam, slamAiming, drilling;
-    public bool slamming;
+    public bool canSlam, slamAiming, drilling, slamming;
+    public bool GameOverState = false;
     float jumpHeldTimer, jumpPreloadTimer, coyoteTimer, apexTimer, Momentum, AimTimer, particleDelayTimer, platformsEntered;
     public float fuel, drillSpeed;
 
@@ -151,20 +151,22 @@ public class DrillPlayerMovement : MonoBehaviour
         if (drilling)
         {
 
+            // GAME OVER STATE CODE + MOVEMENT
             if (fuel > 0)
             {
                 transform.localEulerAngles = new Vector3(0, 0, transform.localEulerAngles.z - inputX * drillTurnSpeed * Time.deltaTime);
             }
-            else
+            else if (drillSpeed <= 0 && !GameOverState)
             {
-                if (drillSpeed == 0)
-                {
-                    LevelGameOverCon.startGameOver(gold.RoundToInt());
-                    //gameOver.gameObject.SetActive(true);
-                    drillEnd.Post(gameObject);
-                }
+                drillEnd.Post(gameObject);
+                GameOverState = true;
+                print("Starting Gameover from Drill");
+                LevelGameOverCon.startGameOver(gold.RoundToInt());
+                //gameOver.gameObject.SetActive(true);
 
             }
+
+
             shaking();
             particleDelayTimer -= Time.deltaTime;
             if (particleDelayTimer < 0 && drillSpeed > 0)

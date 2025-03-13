@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour
 
     private void Update()
     {
-        if (playerControl.fuel > 0 && playerControl.drillSpeed > 0) 
+        if (!playerControl.GameOverState) 
         {
             if (playerControl.slamAiming)
             {
