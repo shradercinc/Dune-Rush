@@ -33,15 +33,18 @@ public class DrillPlayerMovement : MonoBehaviour
     [SerializeField] float offSetXMax, offSetYMax, rotationMax, speedShakeRatio;
 
     float gold = 0;
-    [Foldout("Score")]
+    [Foldout("Score / GameOver")]
     [SerializeField] TMP_Text scoreText;
     [SerializeField] GameOverController LevelGameOverCon;
+    [SerializeField] GameObject endGameDim;
+    [SerializeField] float GameOverTimerMax = 0.5f;
 
     [Foldout("Particle", true)]
     [SerializeField] GameObject particle;
     [SerializeField] Color particleColor;
     [SerializeField] Color ExhaustColor = new Color(0.1f, 0.1f, 0.1f, 1);
     [SerializeField] Color ExhaustColorBloom;
+    [SerializeField] Color CollisionColor;
     [SerializeField] float particleDelayMax, particleCount;
 
     [Foldout("Bar Visuals")]
@@ -64,6 +67,7 @@ public class DrillPlayerMovement : MonoBehaviour
     private void Start()
     {
         //get access to the PlayerInput and Rigidbody2D components
+        endGameDim.SetActive(false);
         myPlayerInput = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody2D>();
         capsuleCollider = GetComponent<CapsuleCollider2D>();
@@ -125,9 +129,13 @@ public class DrillPlayerMovement : MonoBehaviour
                 canSlam = false;
                 slamAiming = false;
                 slamming = true;
-                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y - 5, drillBit.transform.localPosition.z - 2));
-                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y + 5, drillBit.transform.localPosition.z - 2));
-                createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 2));
+                for (int i = 0; i < 3; i++)
+                {
+                    createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z));
+                }
+                
+                //createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y + 5, drillBit.transform.localPosition.z - 2));
+                //createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 2));
                 createParticles(particleCount * 2, ExhaustColorBloom, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z - 1));
                 fuel -= slamFuelConsumption;
                 float boostAngle = (transform.localEulerAngles.z - 90) * Mathf.Deg2Rad;
@@ -143,9 +151,16 @@ public class DrillPlayerMovement : MonoBehaviour
                 capsuleCollider.isTrigger = true;
             }
         }
-        else
+        
+        if (slamming)
         {
-            
+            particleDelayTimer -= Time.deltaTime;
+            if (particleDelayTimer < 0)
+            {
+                particleDelayTimer = particleDelayMax;
+                createParticles(particleCount, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z));
+            }
+
         }
 
         if (drilling)
@@ -161,8 +176,8 @@ public class DrillPlayerMovement : MonoBehaviour
                 drillEnd.Post(gameObject);
                 GameOverState = true;
                 print("Starting Gameover from Drill");
-                LevelGameOverCon.startGameOver(gold.RoundToInt());
                 //gameOver.gameObject.SetActive(true);
+                StartCoroutine(GameOverTransition());
 
             }
 
@@ -329,6 +344,21 @@ public class DrillPlayerMovement : MonoBehaviour
         apexReached = false;
     }
 
+    private IEnumerator GameOverTransition()
+    {
+        float NewGameOverTimer = GameOverTimerMax;
+        while (NewGameOverTimer > 0)
+        {
+            NewGameOverTimer -= Time.deltaTime;
+            yield return null;
+        }
+        scoreText.gameObject.SetActive(false);
+        fuelBar.transform.parent.gameObject.SetActive(false);
+        StaminaBar.transform.parent.gameObject.SetActive(false);
+        endGameDim.SetActive(true);
+        LevelGameOverCon.startGameOver(gold.RoundToInt());
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Platform")
@@ -359,6 +389,8 @@ public class DrillPlayerMovement : MonoBehaviour
         if(collision.gameObject.tag == "Obstruction") 
         {
             print("interaction");
+            createParticles(particleCount / 2,collision.GetComponent<SpriteRenderer>().color, Vector3.zero);
+            createParticles(particleCount / 2, CollisionColor, Vector3.zero);
             var collisionPoint = collision.ClosestPoint(transform.position);
             var collisionNormal = new Vector2(transform.position.x, transform.position.y) - collisionPoint;
             Debug.DrawRay(collisionPoint, collisionNormal * 100, Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f), 1f);
