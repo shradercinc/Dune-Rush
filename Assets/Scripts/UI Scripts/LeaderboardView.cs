@@ -25,7 +25,7 @@ public class LeaderboardView : MonoBehaviour
         for (int i = 1; i < 11; i++)
         {
             playerNames.Add(PlayerPrefs.GetString("R" + i.ToString() + "Name", "AAA"));
-            playerScores.Add(PlayerPrefs.GetInt("R" + i.ToString() + "Score", 1100 - (i * BaseScoreMod)));
+            playerScores.Add(PlayerPrefs.GetInt("R" + i.ToString() + "Score", BaseScoreMod * (13 - i)));
         }
         OddsLeaderBoard.text = "";
         EvensLeaderBoard.text = "";
