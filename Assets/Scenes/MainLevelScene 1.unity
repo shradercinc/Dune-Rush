@@ -87588,6 +87588,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5793611372029647236, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793611372029647236, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793611372029647236, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793611372029647236, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7153971035967997148, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
       propertyPath: m_text
       value: Restart
@@ -87646,6 +87662,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7291535972162768984, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828058932561825718, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3442576108073299648, guid: 1cc98343f6b75814eb4310513e2958c7, type: 3}
+    - target: {fileID: 7828058932561825718, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828058932561825718, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828058932561825718, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828058932561825718, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7828058932561825718, guid: efba60b8d6fd99845b411b54ebbc7013, type: 3}
+      propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
