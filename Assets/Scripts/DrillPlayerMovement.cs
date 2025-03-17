@@ -356,7 +356,7 @@ public class DrillPlayerMovement : MonoBehaviour
         fuelBar.transform.parent.gameObject.SetActive(false);
         StaminaBar.transform.parent.gameObject.SetActive(false);
         endGameDim.SetActive(true);
-        LevelGameOverCon.startGameOver(gold.RoundToInt());
+        LevelGameOverCon.startGameOver(Mathf.RoundToInt(gold));
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
