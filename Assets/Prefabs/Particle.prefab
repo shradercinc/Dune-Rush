@@ -103,4 +103,4 @@ MonoBehaviour:
   alphaMax: 1
   alphaMin: 0.8
   alphaDegrade: 0.006
-  speed: 30
+  speed: 25
