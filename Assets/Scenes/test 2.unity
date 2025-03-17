@@ -69981,7 +69981,7 @@ MonoBehaviour:
   drillBlades: {fileID: 1393097393}
   offSetXMax: 0.003
   offSetYMax: 0.003
-  rotationMax: 5
+  rotationMax: 0.4
   speedShakeRatio: 1
   scoreText: {fileID: 1648384124}
   LevelGameOverCon: {fileID: 1003089772}
