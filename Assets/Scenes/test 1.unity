@@ -11178,7 +11178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
-  SceneName: MainMenuScene
+  SceneName: UpdatedMenu
 --- !u!1001 &819041909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72605,7 +72605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
-  SceneName: MainLevelScene
+  SceneName: UpdatedMenu
 --- !u!1 &1562495914
 GameObject:
   m_ObjectHideFlags: 0
