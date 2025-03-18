@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
-  SceneName: MainLevelScene
+  SceneName: test 1
 --- !u!1001 &1103309168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1038,18 +1038,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6603774, g: 0.56485105, b: 0.56485105, a: 1}
+  m_Color: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 8cea9a9bc4feff340a0966eee712e457, type: 3}
+  m_Texture: {fileID: 2800000, guid: 30ac714486b57cd4d815b11b0a793561, type: 3}
   m_UVRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: -8.85
+    y: -26.61
     width: 1
     height: 1
 --- !u!222 &1261636983
