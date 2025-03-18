@@ -100,10 +100,10 @@ ScriptedImporter:
     border: {x: 17, y: 8, z: 24, w: 13}
     rect:
       serializedVersion: 2
-      x: 267
-      y: 4
-      width: 86
-      height: 30
+      x: 284
+      y: 3
+      width: 88
+      height: 32
     spriteID: 3b6fa5aa8d36ca14588c35cb9e665d0c
     spriteBone: []
     spriteOutline: []
@@ -112,7 +112,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 267, y: 4}
+    uvTransform: {x: 285, y: 4}
     spritePosition: {x: 268, y: 854}
   - name: button_wide_3
     originalName: 
@@ -121,10 +121,10 @@ ScriptedImporter:
     border: {x: 22, y: 11, z: 19, w: 5}
     rect:
       serializedVersion: 2
-      x: 361
-      y: 4
-      width: 86
-      height: 30
+      x: 378
+      y: 3
+      width: 88
+      height: 32
     spriteID: 9b763a073f1e3ab4d88d6d4294783e31
     spriteBone: []
     spriteOutline: []
@@ -133,7 +133,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 361, y: 4}
+    uvTransform: {x: 379, y: 4}
     spritePosition: {x: 268, y: 888}
   - name: button_wide_2
     originalName: 
@@ -142,10 +142,10 @@ ScriptedImporter:
     border: {x: 17, y: 14, z: 21, w: 9}
     rect:
       serializedVersion: 2
-      x: 267
-      y: 42
-      width: 86
-      height: 30
+      x: 284
+      y: 41
+      width: 88
+      height: 32
     spriteID: ee65758f0c93efe40b65cdce3b303589
     spriteBone: []
     spriteOutline: []
@@ -154,8 +154,29 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 267, y: 42}
+    uvTransform: {x: 285, y: 42}
     spritePosition: {x: 268, y: 922}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 42, y: 23, z: 37, w: 9}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 273
+      height: 138
+    spriteID: 7f5d441263ccf5440b672fea00f8b37c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 375, y: 880}
   - name: button_wide_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -163,10 +184,10 @@ ScriptedImporter:
     border: {x: 8, y: 12, z: 19, w: 9}
     rect:
       serializedVersion: 2
-      x: 361
-      y: 42
-      width: 86
-      height: 30
+      x: 378
+      y: 41
+      width: 88
+      height: 32
     spriteID: a8161461d7b7be54e8d1d4e0b2240a92
     spriteBone: []
     spriteOutline: []
@@ -175,7 +196,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 361, y: 42}
+    uvTransform: {x: 379, y: 42}
     spritePosition: {x: 268, y: 956}
   - name: button_wide_0
     originalName: 
@@ -184,10 +205,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 267
-      y: 80
-      width: 86
-      height: 30
+      x: 285
+      y: 79
+      width: 87
+      height: 32
     spriteID: 4182ab73df2d4b349b1686765e9bb635
     spriteBone: []
     spriteOutline: []
@@ -196,7 +217,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 267, y: 80}
+    uvTransform: {x: 285, y: 80}
     spritePosition: {x: 268, y: 990}
   - name: Layer 1
     originalName: 
@@ -205,7 +226,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 455
+      x: 473
       y: 4
       width: 0
       height: 0
@@ -217,7 +238,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 455, y: 4}
+    uvTransform: {x: 473, y: 4}
     spritePosition: {x: 0, y: 1024}
   - name: title
     originalName: 
@@ -227,7 +248,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 150
       width: 255
       height: 143
     spriteID: bd6f973a86a3fa14ca465c1a4bdddf5d
@@ -238,7 +259,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 150}
     spritePosition: {x: 0, y: 881}
   rigSpriteImportData:
   - name: button_wide_3 copy
@@ -463,7 +484,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 3b6fa5aa8d36ca14588c35cb9e665d0c
     layerID: 46
-    mosaicPosition: {x: 267, y: 4}
+    mosaicPosition: {x: 285, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -473,7 +494,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 9b763a073f1e3ab4d88d6d4294783e31
     layerID: 45
-    mosaicPosition: {x: 361, y: 4}
+    mosaicPosition: {x: 379, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -483,7 +504,17 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: ee65758f0c93efe40b65cdce3b303589
     layerID: 44
-    mosaicPosition: {x: 267, y: 42}
+    mosaicPosition: {x: 285, y: 42}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 2
+    spriteName: Layer 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f5d441263ccf5440b672fea00f8b37c
+    layerID: 54
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -493,7 +524,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: a8161461d7b7be54e8d1d4e0b2240a92
     layerID: 42
-    mosaicPosition: {x: 361, y: 42}
+    mosaicPosition: {x: 379, y: 42}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -503,7 +534,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 4182ab73df2d4b349b1686765e9bb635
     layerID: 41
-    mosaicPosition: {x: 267, y: 80}
+    mosaicPosition: {x: 285, y: 80}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -513,7 +544,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 6243a5b3c6684b4468f132384a842b95
     layerID: 43
-    mosaicPosition: {x: 455, y: 4}
+    mosaicPosition: {x: 473, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -523,7 +554,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: bd6f973a86a3fa14ca465c1a4bdddf5d
     layerID: 16
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 150}
     flatten: 0
     isImported: 1
     isVisible: 1
