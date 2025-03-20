@@ -58,6 +58,32 @@
 				<Event Id="376381163" Name="Stop_Drill" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{260FFB74-8410-D9F5-D08C-1EF55FEE93F0}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="19875762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Menu Intro.wav</ShortName>
+					<CachePath>SFX/Dune Rush Menu Intro_818F3B66.wem</CachePath>
+				</File>
+				<File Id="277582777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Menu Loop.wav</ShortName>
+					<CachePath>SFX/Dune Rush Menu Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2720335842" Name="Play_Dune_Rush_Menu_Intro" DurationType="OneShot" DurationMin="6.5306044" DurationMax="6.5306044">
+					<MediaRefs>
+						<MediaRef Id="19875762"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2435933422" Name="Play_Dune_Rush_Menu_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="277582777"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70A44EE6-3164-AC3E-A0F7-58F208582291}</FileHash>
+	<FileHash>{1C400641-28AE-CA1A-0E5A-BC2FC3A448DA}</FileHash>
 </SoundBanksInfo>

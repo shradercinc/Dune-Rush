@@ -13,6 +13,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Music" ID="{B7EFDA63-F3AA-4B02-91BE-9141016A6A66}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Dune_Rush_Menu_Loop" ID="{5B0189D6-0B83-4636-ADB9-EADE2E4A5516}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dune_Rush_Menu_Intro" ID="{BA8F0086-F1DA-4EC6-B938-2F628FD958EE}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

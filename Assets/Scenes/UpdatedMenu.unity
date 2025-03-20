@@ -2829,7 +2829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
-  SceneName: test 1
+  SceneName: test 2
 --- !u!1 &861513155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3737,7 +3737,7 @@ MonoBehaviour:
 
     UI
 
-    Art, Animation
+    Art
 
     Composition'
   m_isRightToLeft: 0
@@ -5477,6 +5477,8 @@ GameObject:
   - component: {fileID: 1737891853}
   - component: {fileID: 1737891852}
   - component: {fileID: 1737891851}
+  - component: {fileID: 1737891855}
+  - component: {fileID: 1737891856}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5586,6 +5588,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1737891855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737891850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90673b9f24ea434c8e00b1252aa984b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicIntro:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bf35620739bc1ed43afd43dfc3eafc05, type: 2}
+  MusicLoop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c4e8273deba6bcb4882b53eca4bd7fde, type: 2}
+--- !u!114 &1737891856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737891850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0830a088921b07440b27aa3e56a906df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a4ac1a314fcb8b044805fbb75d930203, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1746432260
 GameObject:
   m_ObjectHideFlags: 0

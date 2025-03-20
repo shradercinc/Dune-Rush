@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2435933422	Play_Dune_Rush_Menu_Loop			\Default Work Unit\Play_Dune_Rush_Menu_Loop	
+	2720335842	Play_Dune_Rush_Menu_Intro			\Default Work Unit\Play_Dune_Rush_Menu_Intro	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19875762	Dune Rush Menu Intro	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Menu Intro_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dune Rush Menu Intro		1253972
+	277582777	Dune Rush Menu Loop	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Menu Loop_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dune Rush Menu Loop		7523364
+

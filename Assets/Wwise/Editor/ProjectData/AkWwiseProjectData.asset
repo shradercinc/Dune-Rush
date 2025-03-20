@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a7a6d7c49839504b8c6af1812bafcf9e
     GuidInternal: 
-    m_lastTime: -8584595608146776235
+    m_lastTime: -8584592824041740733
     List:
+    - name: Music
+      guid: 63daefb7aaf3024b91be9141016a6a66
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a7a6d7c49839504b8c6af1812bafcf9e
+      - ElementName: Music
+        ObjectType: 7
+        guid: 63daefb7aaf3024b91be9141016a6a66
+      Path: SoundBanks\Default Work Unit\Music
     - name: SoundEffects
       guid: 14f5d79c05a1f440a2b49f124d83d069
       id: 3898083304
@@ -94,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ea580007c7179c49b5695cb8204e286c
     GuidInternal: 
-    m_lastTime: -8584595608147462827
+    m_lastTime: -8584592824279127500
     List:
     - name: Play_Drill
       guid: 0185c5e10e837f43851e7de11ccc73f8
@@ -110,6 +124,57 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0185c5e10e837f43851e7de11ccc73f8
       Path: Events\Default Work Unit\Play_Drill
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dune_Rush_Gameplay_loop
+      guid: bcd6b4567d34304cb899152ba62ee689
+      id: 709904777
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_Dune_Rush_Gameplay_loop
+        ObjectType: 3
+        guid: bcd6b4567d34304cb899152ba62ee689
+      Path: Events\Default Work Unit\Play_Dune_Rush_Gameplay_loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Dune_Rush_Menu_Intro
+      guid: 86008fbadaf1c64eb9382f628fd958ee
+      id: 2720335842
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_Dune_Rush_Menu_Intro
+        ObjectType: 3
+        guid: 86008fbadaf1c64eb9382f628fd958ee
+      Path: Events\Default Work Unit\Play_Dune_Rush_Menu_Intro
+      maxAttenuation: 0
+      maxDuration: 6.5306044
+      minDuration: 6.5306044
+    - name: Play_Dune_Rush_Menu_Loop
+      guid: d689015b830b3646adb9eade2e4a5516
+      id: 2435933422
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_Dune_Rush_Menu_Loop
+        ObjectType: 3
+        guid: d689015b830b3646adb9eade2e4a5516
+      Path: Events\Default Work Unit\Play_Dune_Rush_Menu_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
