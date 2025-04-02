@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ea580007c7179c49b5695cb8204e286c
     GuidInternal: 
-    m_lastTime: -8584592824279127500
+    m_lastTime: -8584589901705974778
     List:
     - name: Play_Drill
       guid: 0185c5e10e837f43851e7de11ccc73f8
@@ -124,23 +124,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0185c5e10e837f43851e7de11ccc73f8
       Path: Events\Default Work Unit\Play_Drill
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Dune_Rush_Gameplay_loop
-      guid: bcd6b4567d34304cb899152ba62ee689
-      id: 709904777
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ea580007c7179c49b5695cb8204e286c
-      - ElementName: Play_Dune_Rush_Gameplay_loop
-        ObjectType: 3
-        guid: bcd6b4567d34304cb899152ba62ee689
-      Path: Events\Default Work Unit\Play_Dune_Rush_Gameplay_loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -255,8 +238,42 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c084f16f2b425a43892039d4871417fb
     GuidInternal: 
-    m_lastTime: -8584595608146776235
-    List: []
+    m_lastTime: -8584585860192991762
+    List:
+    - name: StateGroup
+      guid: f41b226606c6064eb66b0067987d4547
+      id: 2935564353
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c084f16f2b425a43892039d4871417fb
+      - ElementName: StateGroup
+        ObjectType: 9
+        guid: f41b226606c6064eb66b0067987d4547
+      Path: States\Default Work Unit\StateGroup
+      values:
+      - name: None
+        guid: 7b48436d48cbd9449a69bdd4b6255b6d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c084f16f2b425a43892039d4871417fb
+        - ElementName: StateGroup
+          ObjectType: 9
+          guid: f41b226606c6064eb66b0067987d4547
+        - ElementName: None
+          ObjectType: 8
+          guid: 7b48436d48cbd9449a69bdd4b6255b6d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:

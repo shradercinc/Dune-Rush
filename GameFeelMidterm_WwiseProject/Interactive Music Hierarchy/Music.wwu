@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{907024B8-12AD-4344-9A97-FF4E1C472086}" SchemaVersion="119">
+	<InteractiveMusic>
+		<WorkUnit Name="Music" ID="{907024B8-12AD-4344-9A97-FF4E1C472086}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Dune Rush Gameplay end" ID="{021F6778-9435-4EE9-A3E3-B23E779F88D6}" ShortID="600827451">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="9600"/>
+						<Property Name="Tempo" Type="Real64" Value="150"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Dune Rush Gameplay end" ID="{1B65E23E-0B40-41DA-8616-32E645C31D54}" ShortID="550638254">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{87F46A7E-D27A-4651-AF42-3F58FAF9EBB7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dune Rush Gameplay end" ID="{0FE00693-4AEB-4420-8521-984BF58B502D}">
+									<Language>SFX</Language>
+									<AudioFile>Dune Rush Gameplay end.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="885423481"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{35CBFB46-3820-42D1-BD02-525DA4E73217}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Dune Rush Gameplay end" ID="{409643F5-5B40-4A0A-9901-715EAAF486F9}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="9600"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Dune Rush Gameplay end" ID="{0FE00693-4AEB-4420-8521-984BF58B502D}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{A09AE89D-9BF8-4162-BB66-E2CAB6226B3F}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{AC3DF06B-71FD-430C-93FB-24B0533A039C}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="9600"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+				<MusicSegment Name="Dune Rush Gameplay Intro" ID="{C2D10803-AFAC-4694-A119-35C9E9920033}" ShortID="633637660">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="17353.1914893617"/>
+						<Property Name="Tempo" Type="Real64" Value="150"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Dune Rush Gameplay Intro" ID="{158799BA-EAC8-4BBF-8A6E-3843FF761A70}" ShortID="707981755">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{93032CD2-51A9-4320-BD2D-6CD5E7ED7F61}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dune Rush Gameplay Intro" ID="{277A1200-C15F-452C-BBBD-B96215DC9D3D}">
+									<Language>SFX</Language>
+									<AudioFile>Dune Rush Gameplay Intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="308897180"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{55320C0A-E255-4442-822E-360BCAB89B5B}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Dune Rush Gameplay Intro" ID="{2ED5A029-DB11-4ECA-9374-EEDE93989776}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Dune Rush Gameplay Intro" ID="{277A1200-C15F-452C-BBBD-B96215DC9D3D}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{C6E5773A-B323-4B93-9199-0553543FBABB}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{FF942BD9-AD22-45DF-9BCB-16B445A399C3}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="12800"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+				<MusicSegment Name="Dune Rush Gameplay End Loop" ID="{85864C90-CB94-4C15-B745-CD5EC4C32F17}" ShortID="633093549">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="4860"/>
+						<Property Name="Tempo" Type="Real64" Value="150"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Dune Rush Gameplay End Loop" ID="{D1699DC6-5581-4B40-84D0-47BB595EF94B}" ShortID="454071991">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{66D61614-A537-45DD-8F7E-1A4315BBE65A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dune Rush Gameplay End Loop" ID="{C21AFCF9-E886-45C4-BE9B-B70341C7956C}">
+									<Language>SFX</Language>
+									<AudioFile>Dune Rush Gameplay End Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="188155900"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{9E140F55-C761-4397-A60A-BE9AC80E9333}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Dune Rush Gameplay End Loop" ID="{6CE6C60F-0440-48FE-BE97-C71091B20CEE}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="4860"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Dune Rush Gameplay End Loop" ID="{C21AFCF9-E886-45C4-BE9B-B70341C7956C}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{3573C448-73F4-443A-8BE5-BBA0F2DAF8C5}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{61B4B8D9-9C40-479D-825E-10ECEC45D894}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="4860"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+				<MusicPlaylistContainer Name="Main Gameplay Loop" ID="{FE9164D2-D34E-464B-98BD-8AC1BBCD5328}" ShortID="337616862">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{994C3033-88D2-48DB-B103-28F5E73B8066}" ShortID="45343385"/>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{FD4B109A-8393-4B00-934F-B884EDE7F5A0}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{C22665B4-D5FF-4712-A837-795D274ECE34}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Dune Rush Gameplay loop C-02" ID="{EB960DB0-4EDD-44A3-88E2-154E24C85B43}" ShortID="338574457">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop C-02" ID="{17AA0458-01B5-4613-B82D-81A37AEAB11F}" ShortID="311711845">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{DBFBB021-48F2-44B4-B6A9-AF69900AB85F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop C-02" ID="{F2746750-3309-4B90-8FB6-3277473E8942}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop C-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422720572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F41E12FB-A2AA-4D7A-AF6D-1EB949C0AEF1}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop C-02" ID="{B2277CFD-E71C-4384-AC05-C85D05E3B5E4}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop C-02" ID="{F2746750-3309-4B90-8FB6-3277473E8942}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{AE6FC99B-8184-4CE8-A028-D32D155FCD11}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{C6751DCF-BC4C-464D-A0E7-B7AE7A2AACBD}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop D-01" ID="{01881488-8CF1-445D-93F1-541660788896}" ShortID="1043437058">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop D-01" ID="{8E91A654-F564-47D2-A8FA-1A017E720CA0}" ShortID="757913898">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B79D124C-1E1C-4BC4-B577-7F6BA1384BE0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop D-01" ID="{0E4173EE-371A-419E-A174-FC97175606EE}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop D-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="486334412"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F7D18E8C-36E1-4633-B3C1-0016A03F34AA}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop D-01" ID="{43ACFAE1-B382-4A4B-9CFD-2E051170E6EB}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop D-01" ID="{0E4173EE-371A-419E-A174-FC97175606EE}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{AEE071B7-63D7-4593-9B6E-63C54941BCF7}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{D81DB3BF-6152-4841-B50A-A61339A3EF5F}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop D-02" ID="{A27EFB74-65F1-4A19-B55C-98648EB79D83}" ShortID="572683472">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop D-02" ID="{DDDE1773-1A56-44BB-A0B1-9AE55F020D27}" ShortID="83468838">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{338AEE46-0277-4E0B-AD34-E12348DD5DAA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop D-02" ID="{1F1417A1-E37C-476A-829D-A90E94078322}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop D-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="882518537"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B2E4B524-7701-41AE-8333-8CB08B002BFC}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop D-02" ID="{E053F30E-A886-46D0-9B6B-61B219DAF74B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop D-02" ID="{1F1417A1-E37C-476A-829D-A90E94078322}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{CCCEBBA5-A1FE-435B-A33E-AA43D92DD149}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{14E26A39-BFB0-44E4-B606-5E0DC53EFCEF}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop E-01" ID="{8A3DE21B-C38A-4883-803C-04C145BBDEC9}" ShortID="1020024856">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop E-01" ID="{C506694E-925C-4842-8143-744530C26B04}" ShortID="202886789">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{502A619E-4A16-42A0-8D8D-6C9774D36D79}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop E-01" ID="{86B40F90-3FB2-4F66-8418-722FDE451C54}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop E-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137574788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{22724830-B3DC-44EC-85A0-D949C8BB443D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop E-01" ID="{14E393C0-2733-4C08-ADD3-F1B5CE16C807}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop E-01" ID="{86B40F90-3FB2-4F66-8418-722FDE451C54}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{AFDC1E09-6024-4D15-A43E-B42F48D42D49}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{99F3FEFD-0A1E-40A8-9E5F-D3092A46B953}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop E-02" ID="{ACB95E03-108A-4882-A5A3-164A0296E15A}" ShortID="836995254">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop E-02" ID="{2C439F79-9301-4149-9B65-7905081FC6CB}" ShortID="406333266">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4366D99D-8061-4570-9C96-E50C4BAB8D7C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop E-02" ID="{78ACF9AC-B8B5-4F75-896A-101449387250}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop E-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="566046802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{E5CCC272-8972-4ED8-AA4F-8530547E32FB}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop E-02" ID="{9017C10A-2904-4BA5-B5B8-8064882BDDA1}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop E-02" ID="{78ACF9AC-B8B5-4F75-896A-101449387250}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C8BE41E9-F197-467A-8ECC-812C48CC9864}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{801C925D-4537-484B-BE49-74D71A5A1472}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop B-02" ID="{BB7018C1-127D-4620-9609-7986C612468F}" ShortID="921869241">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop B-02" ID="{CF233AE9-6615-41C7-A93D-7DAE9F19C277}" ShortID="763024687">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{41744ED3-77C8-4084-9877-7F3A778EC641}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop B-02" ID="{962A823C-EDAE-407A-BFF8-F775954F4D93}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop B-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="811870451"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5BF285BA-1B21-4299-9E3E-2E036259F2F9}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop B-02" ID="{77DBB572-A915-4F6D-BFA2-6DFD3DDAE98D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop B-02" ID="{962A823C-EDAE-407A-BFF8-F775954F4D93}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{9B0F56F8-7AD7-4E5F-9B42-672311D64044}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{CFCE167F-9744-438F-8BF7-912B60C37EB8}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop C-01" ID="{CFCA0935-7F6D-4431-A3D7-6C5A045AA60D}" ShortID="48624408">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop C-01" ID="{C8477E54-D9A8-42A9-85D6-627E51CAAA88}" ShortID="253664425">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B39989DD-366D-4C63-B0F9-09D52F0B3C0C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop C-01" ID="{A1F2DB8F-EB72-4ADD-9225-D22346049833}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop C-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="447603185"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{5A1AAA58-C67C-47C9-BD6A-53853FBB3D75}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop C-01" ID="{46A1E342-059A-4637-B688-4E0E79FFBF3A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop C-01" ID="{A1F2DB8F-EB72-4ADD-9225-D22346049833}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{888179C5-D574-41DB-860A-29A1D8CC3D6F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{A79C0CD8-B534-4208-9EA3-A4E61BA9FFE9}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop A-01" ID="{ACC21FD6-FE28-4B7B-A8F7-099BBA6820D7}" ShortID="438595220">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop A-01" ID="{B6B0E011-9663-4ACD-B044-C3FA73688497}" ShortID="691823172">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{91A20B38-60EE-4098-AF33-EB847ED8437D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop A-01" ID="{3A80952D-3D8B-411B-A1B0-0D44B90EECA5}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop A-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884106877"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{36C60488-E7AD-4A8B-9E0A-50D930FB2D61}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop A-01" ID="{822D47DF-6466-41A1-AA0D-44D5D6BA4519}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop A-01" ID="{3A80952D-3D8B-411B-A1B0-0D44B90EECA5}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{2678F32C-AD78-4A1C-835E-A4E2DF0FC8A7}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{750AF162-64DA-44C0-8B26-E187DABDD4FB}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop B-01" ID="{4F89F043-92D6-4950-828C-A4CB0F40ADDB}" ShortID="750271614">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop B-01" ID="{7293DA92-D527-45E5-BC6A-1954085A98F5}" ShortID="531635957">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{73A90831-8D32-4D20-9420-CF9BDA45E5CE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop B-01" ID="{36D1C11C-6474-4491-9A98-9F2674E14809}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop B-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492357629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CB5A9062-74E2-44C8-9841-AF0282170F81}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop B-01" ID="{F4E4E970-B12B-4BFA-894A-52D8340399B0}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200.5"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop B-01" ID="{36D1C11C-6474-4491-9A98-9F2674E14809}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C1048998-B29A-440C-929E-A07A1081D188}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{85745C6C-6B9E-4332-81E3-67113030E97C}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200.5"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Gameplay loop A-02" ID="{ED7F4F5A-2BE7-4102-BB41-58A63188FABC}" ShortID="1073473742">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Gameplay loop A-02" ID="{75A1AFFB-C24B-4EC1-BA09-7E123B92BA1F}" ShortID="340916627">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{6452F097-8CEB-4A32-81F1-3404A080628C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Gameplay loop A-02" ID="{350A2224-44DD-4B63-B8DD-8CD9526E2B3E}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Gameplay loop A-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928434410"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{34A21D4A-D0EB-4F8C-8D72-B49F3436F046}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Gameplay loop A-02" ID="{3444EC20-71CC-46B0-AF99-146203F51DDE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3200"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Gameplay loop A-02" ID="{350A2224-44DD-4B63-B8DD-8CD9526E2B3E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{08AD9E98-462C-40FE-AF5C-FEDC7DF86E9F}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{28414591-FD43-44AE-BCF0-B2F711696DE1}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3200"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

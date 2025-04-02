@@ -50,17 +50,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Dune_Rush_Gameplay_loop" ID="{56B4D6BC-347D-4C30-B899-152BA62EE689}">
-					<ChildrenList>
-						<Action Name="" ID="{A705FFAA-E4A2-4F5B-8D88-5834667359DF}" ShortID="608275950">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dune Rush Gameplay loop" ID="{F14E0DC9-9F39-444B-B5E0-0E501FB93885}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Dune_Rush_Menu_Intro" ID="{BA8F0086-F1DA-4EC6-B938-2F628FD958EE}">
 					<ChildrenList>
 						<Action Name="" ID="{7279CAA1-9523-4155-B6B5-EAF8A00A5915}" ShortID="576591077">
