@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuConStart : MenuController
 {
+    [SerializeField] AK.Wwise.Event MenuStop;
     [SerializeField] string SceneName;
     // Update is called once per frame
     void Update()
@@ -12,6 +13,7 @@ public class MenuConStart : MenuController
         if (isOver && Input.GetKeyUp(KeyCode.Mouse0))
         { 
             SceneManager.LoadScene(SceneName);
+            MenuStop.Post(gameObject);
         }
     }
 }

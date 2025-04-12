@@ -2829,6 +2829,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  MenuStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 783d3f521d25c6549b974cd641d94216, type: 2}
   SceneName: test 2
 --- !u!1 &861513155
 GameObject:

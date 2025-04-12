@@ -6088,6 +6088,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  MenuStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e3885bcd293b3a4b91166e5d8410fe4, type: 2}
   SceneName: UpdatedMenu
 --- !u!1001 &399351777
 PrefabInstance:
@@ -8408,6 +8412,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  MenuStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e3885bcd293b3a4b91166e5d8410fe4, type: 2}
   SceneName: UpdatedMenu
 --- !u!4 &579051257 stripped
 Transform:
@@ -70244,6 +70252,7 @@ MonoBehaviour:
   fuelBar: {fileID: 1383777268}
   footBoxCollider: {fileID: 1290596508}
   gameOver: {fileID: 1097884394}
+  musicController: {fileID: 0}
   drillSound:
     idInternal: 0
     valueGuidInternal: 
@@ -93523,6 +93532,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85bc1a0b07196cb43884d358701afd73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MusicLoop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3b0851c25145e984d9b1a21b9ae56f41, type: 2}
+  MusicStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e3885bcd293b3a4b91166e5d8410fe4, type: 2}
 --- !u!114 &1902147134
 MonoBehaviour:
   m_ObjectHideFlags: 0

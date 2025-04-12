@@ -59,6 +59,7 @@ public class DrillPlayerMovement : MonoBehaviour
     [SerializeField] TMP_Text gameOver;
 
     [Foldout("Sounds", true)]
+    [SerializeField] LevelMusicControl musicController;
     [SerializeField] AK.Wwise.Event drillSound;
     [SerializeField] AK.Wwise.Event drillEnd;
     [SerializeField] AK.Wwise.Event treasureSound;
@@ -174,6 +175,7 @@ public class DrillPlayerMovement : MonoBehaviour
             else if (drillSpeed <= 0 && !GameOverState)
             {
                 drillEnd.Post(gameObject);
+                musicController.musicGameOver();
                 GameOverState = true;
                 print("Starting Gameover from Drill");
                 //gameOver.gameObject.SetActive(true);

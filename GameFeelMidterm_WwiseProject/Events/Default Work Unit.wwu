@@ -72,6 +72,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GameStateMusic" ID="{AE250B5B-FAE5-4A0C-956E-7C0DF7EAD0D1}">
+					<ChildrenList>
+						<Action Name="" ID="{0AA89F63-F837-4987-B621-25C7124F2FE3}" ShortID="1062421972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Dune_Rush_Menu_Loop" ID="{D37E33A5-1087-4B06-B862-C6B332247FB6}">
+					<ChildrenList>
+						<Action Name="" ID="{93382763-7FBA-4467-9D0A-E0961AC803E9}" ShortID="756257264">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dune Rush Menu Loop" ID="{475943AB-DAFB-45B5-88B0-E1EA845AD6E4}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GameStateMusic" ID="{CFCFCDD1-F0CA-4D66-860F-AA65916BBC94}">
+					<ChildrenList>
+						<Action Name="" ID="{C44C65C3-E84F-45CE-A8CD-3E833C51C0FD}" ShortID="582896270">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

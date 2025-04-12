@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{74099B0F-1327-E420-0050-C63C95897257}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,6 +21,21 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="2935564353" Name="StateGroup">
+					<States>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4091656514" Name="GameState">
+					<Switches>
+						<Switch Id="350494080" Name="GameOn"/>
+						<Switch Id="4158285989" Name="GameOver"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="3898083304" Type="User" Language="SFX" Hash="{8911C744-B837-1FCE-4A7E-DA3FFDF51A0B}">
 			<ShortName>SoundEffects</ShortName>
@@ -58,7 +73,7 @@
 				<Event Id="376381163" Name="Stop_Drill" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{260FFB74-8410-D9F5-D08C-1EF55FEE93F0}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2C229AE6-EA5C-0162-96D2-EB6769CD1495}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -66,9 +81,61 @@
 					<ShortName>Dune Rush Menu Intro.wav</ShortName>
 					<CachePath>SFX/Dune Rush Menu Intro_818F3B66.wem</CachePath>
 				</File>
+				<File Id="137574788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop E-01.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop E-01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="188155900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay End Loop.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay End Loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="277582777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dune Rush Menu Loop.wav</ShortName>
 					<CachePath>SFX/Dune Rush Menu Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="308897180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay Intro.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay Intro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="422720572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop C-02.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop C-02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="447603185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop C-01.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop C-01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="486334412" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop D-01.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop D-01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="492357629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop B-01.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop B-01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="566046802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop E-02.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop E-02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="811870451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop B-02.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop B-02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="882518537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop D-02.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop D-02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="884106877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop A-01.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop A-01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="885423481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay end.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay end_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="928434410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dune Rush Gameplay loop A-02.wav</ShortName>
+					<CachePath>SFX/Dune Rush Gameplay loop A-02_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -82,8 +149,45 @@
 						<MediaRef Id="277582777"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4294752536" Name="Play_GameStateMusic" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4091656514" Id="350494080"/>
+							<MediaRefs>
+								<MediaRef Id="137574788"/>
+								<MediaRef Id="308897180"/>
+								<MediaRef Id="422720572"/>
+								<MediaRef Id="447603185"/>
+								<MediaRef Id="486334412"/>
+								<MediaRef Id="492357629"/>
+								<MediaRef Id="566046802"/>
+								<MediaRef Id="811870451"/>
+								<MediaRef Id="882518537"/>
+								<MediaRef Id="884106877"/>
+								<MediaRef Id="928434410"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4091656514" Id="4158285989"/>
+							<MediaRefs>
+								<MediaRef Id="188155900"/>
+								<MediaRef Id="885423481"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1605173404" Name="Stop_Dune_Rush_Menu_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1696622214" Name="Stop_GameStateMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="4091656514" Name="GameState">
+					<Switches>
+						<Switch Id="350494080" Name="GameOn"/>
+						<Switch Id="4158285989" Name="GameOver"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1C400641-28AE-CA1A-0E5A-BC2FC3A448DA}</FileHash>
+	<FileHash>{F09FE7E4-4A93-F722-3DF6-1321E16F5B26}</FileHash>
 </SoundBanksInfo>

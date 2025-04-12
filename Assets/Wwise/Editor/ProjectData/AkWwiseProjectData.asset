@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a7a6d7c49839504b8c6af1812bafcf9e
     GuidInternal: 
-    m_lastTime: -8584592824041740733
+    m_lastTime: -8584571773810692960
     List:
     - name: Music
       guid: 63daefb7aaf3024b91be9141016a6a66
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ea580007c7179c49b5695cb8204e286c
     GuidInternal: 
-    m_lastTime: -8584589901705974778
+    m_lastTime: -8584571773810980883
     List:
     - name: Play_Drill
       guid: 0185c5e10e837f43851e7de11ccc73f8
@@ -178,6 +178,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.57
       minDuration: 0.57
+    - name: Play_GameStateMusic
+      guid: 5b0b25aee5fa0c4a956e7c0df7ead0d1
+      id: 4294752536
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_GameStateMusic
+        ObjectType: 3
+        guid: 5b0b25aee5fa0c4a956e7c0df7ead0d1
+      Path: Events\Default Work Unit\Play_GameStateMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Treasure
       guid: 69f5093846634f4395f9c2e3cf80f51d
       id: 2958894185
@@ -209,6 +226,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 22c8f46c8c3d114083b908c1161dc921
       Path: Events\Default Work Unit\Stop_Drill
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Dune_Rush_Menu_Loop
+      guid: a5337ed38710064bb862c6b332247fb6
+      id: 1605173404
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stop_Dune_Rush_Menu_Loop
+        ObjectType: 3
+        guid: a5337ed38710064bb862c6b332247fb6
+      Path: Events\Default Work Unit\Stop_Dune_Rush_Menu_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_GameStateMusic
+      guid: d1cdcfcfcaf0664d860faa65916bbc94
+      id: 1696622214
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stop_GameStateMusic
+        ObjectType: 3
+        guid: d1cdcfcfcaf0664d860faa65916bbc94
+      Path: Events\Default Work Unit\Stop_GameStateMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -286,8 +337,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: f83b0b6d83a9624cb0ffe9e3bbeba9d1
     GuidInternal: 
-    m_lastTime: -8584595608146776235
-    List: []
+    m_lastTime: -8584572053170297791
+    List:
+    - name: GameState
+      guid: 3372ed463bb9cf4f873423a434b7f27b
+      id: 4091656514
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f83b0b6d83a9624cb0ffe9e3bbeba9d1
+      - ElementName: GameState
+        ObjectType: 11
+        guid: 3372ed463bb9cf4f873423a434b7f27b
+      Path: Switches\Default Work Unit\GameState
+      values:
+      - name: GameOn
+        guid: cfc9979afa0fe44c9bad65aa83791948
+        id: 350494080
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f83b0b6d83a9624cb0ffe9e3bbeba9d1
+        - ElementName: GameState
+          ObjectType: 11
+          guid: 3372ed463bb9cf4f873423a434b7f27b
+        - ElementName: GameOn
+          ObjectType: 10
+          guid: cfc9979afa0fe44c9bad65aa83791948
+      - name: GameOver
+        guid: 470ddfbc67b7744cb460a06cf0a42572
+        id: 4158285989
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f83b0b6d83a9624cb0ffe9e3bbeba9d1
+        - ElementName: GameState
+          ObjectType: 11
+          guid: 3372ed463bb9cf4f873423a434b7f27b
+        - ElementName: GameOver
+          ObjectType: 10
+          guid: 470ddfbc67b7744cb460a06cf0a42572
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
