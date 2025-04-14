@@ -33,7 +33,7 @@ public class DrillPlayerMovement : MonoBehaviour
     [SerializeField] float offSetXMax, offSetYMax, rotationMax, speedShakeRatio;
 
     float gold = 0;
-    [Foldout("Score / GameOver")]
+    [Foldout("Score / GameOver", true)]
     [SerializeField] TMP_Text scoreText;
     [SerializeField] GameOverController LevelGameOverCon;
     [SerializeField] GameObject endGameDim;
@@ -166,13 +166,12 @@ public class DrillPlayerMovement : MonoBehaviour
 
         if (drilling)
         {
-
             // GAME OVER STATE CODE + MOVEMENT
             if (fuel > 0)
             {
                 transform.localEulerAngles = new Vector3(0, 0, transform.localEulerAngles.z - inputX * drillTurnSpeed * Time.deltaTime);
             }
-            else if (drillSpeed <= 0 && !GameOverState)
+            else if (!GameOverState)
             {
                 drillEnd.Post(gameObject);
                 musicController.musicGameOver();
@@ -382,7 +381,8 @@ public class DrillPlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Treasure")
         {
             gold += collision.GetComponent<treasure>().value;
-            createParticles(50, collision.GetComponent<SpriteRenderer>().color, Vector3.zero);
+            Color newPColor = collision.GetComponent<treasure>().particleColor;
+            createParticles(50, newPColor, Vector3.zero);
             scoreText.text = "Gold: " + gold + "$";
             Destroy(collision.gameObject);
             treasureSound.Post(gameObject);

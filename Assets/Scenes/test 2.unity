@@ -70240,19 +70240,19 @@ MonoBehaviour:
   scoreText: {fileID: 982272805}
   LevelGameOverCon: {fileID: 2081585045}
   endGameDim: {fileID: 946841897}
-  GameOverTimerMax: 1
+  GameOverTimerMax: 3
   particle: {fileID: 5909605308972166890, guid: 9f5c0e3425276e34dbfd3a716898a1c4, type: 3}
   particleColor: {r: 0.5, g: 0.30337077, b: 0, a: 0}
-  ExhaustColor: {r: 0.3962264, g: 0.3949804, b: 0.3949804, a: 1}
-  ExhaustColorBloom: {r: 0.5, g: 0.03585437, b: 0, a: 0}
-  CollisionColor: {r: 1, g: 0.9944998, b: 0.47798735, a: 0}
+  ExhaustColor: {r: 0.7169812, g: 0.7120062, b: 0.68090665, a: 1}
+  ExhaustColorBloom: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
+  CollisionColor: {r: 1, g: 0.9942308, b: 0.23270434, a: 0}
   particleDelayMax: 0.05
   particleCount: 20
   StaminaBar: {fileID: 872866513}
   fuelBar: {fileID: 1383777268}
   footBoxCollider: {fileID: 1290596508}
   gameOver: {fileID: 1097884394}
-  musicController: {fileID: 0}
+  musicController: {fileID: 1902147133}
   drillSound:
     idInternal: 0
     valueGuidInternal: 

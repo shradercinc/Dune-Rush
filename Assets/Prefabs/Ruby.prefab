@@ -109,6 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1600
+  particleColor: {r: 0.8113208, g: 0.3571852, b: 0.3571852, a: 1}
 --- !u!60 &5272644737046669573
 PolygonCollider2D:
   m_ObjectHideFlags: 0

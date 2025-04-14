@@ -572,6 +572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1200
+  particleColor: {r: 0.40236732, g: 0.4961783, b: 0.9339623, a: 1}
 --- !u!1 &5903323934187049779
 GameObject:
   m_ObjectHideFlags: 0

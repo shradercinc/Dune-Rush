@@ -10,7 +10,7 @@ public class LevelMusicControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AkSoundEngine.SetState("GameState", "GameOn");
+        AkSoundEngine.SetSwitch("GameState", "GameOn", gameObject);
         MusicLoop.Post(gameObject);
     }
 
@@ -21,7 +21,7 @@ public class LevelMusicControl : MonoBehaviour
 
     public void musicGameOver()
     {
-        AkSoundEngine.SetState("GameState", "GameOver");
+        AkSoundEngine.SetSwitch("GameState", "GameOver", gameObject);
     }
 
 }
