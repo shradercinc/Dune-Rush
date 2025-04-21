@@ -6088,6 +6088,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuStop:
     idInternal: 0
     valueGuidInternal: 
@@ -8412,6 +8420,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuStop:
     idInternal: 0
     valueGuidInternal: 
@@ -70269,6 +70285,34 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: cb632ae95b5577e479b2b440abceffa1, type: 2}
+  chargeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2ca845c6e3a060b4585f21f9700f4e56, type: 2}
+  chargeEnd:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 56e7524399b9b324aaf82cbd476c012f, type: 2}
+  chargeSoundQ:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1261fb8dc33d6b84eb33ba7a89b9a88a, type: 2}
+  chargeEndQ:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1795dc4056965c749b5b96971b72140a, type: 2}
+  BoostSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2b8821196d6021c49b1d5ba96325e4bf, type: 2}
+  DrillBoostSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3c7cb5dce8c32364e813e400f6afe789, type: 2}
+  Impact:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1b6e9cd89b2023f4fa5ea1a956b55033, type: 2}
 --- !u!114 &1290596510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88102,6 +88146,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   GOCon: {fileID: 2081585045}
 --- !u!4 &1490499067 stripped
 Transform:
@@ -95762,7 +95814,7 @@ MonoBehaviour:
   - {fileID: 1573987398}
   - {fileID: 10353602}
   SelectorUI: {fileID: 1159923289}
-  BaseScoreMod: 500
+  BaseScoreMod: 1600
 --- !u!224 &2081585046
 RectTransform:
   m_ObjectHideFlags: 0

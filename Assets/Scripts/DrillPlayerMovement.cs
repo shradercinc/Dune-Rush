@@ -64,6 +64,17 @@ public class DrillPlayerMovement : MonoBehaviour
     [SerializeField] AK.Wwise.Event drillEnd;
     [SerializeField] AK.Wwise.Event treasureSound;
     [SerializeField] AK.Wwise.Event fuelSound;
+    [SerializeField] AK.Wwise.Event chargeSound;
+    [SerializeField] AK.Wwise.Event chargeEnd;
+    [SerializeField] AK.Wwise.Event chargeSoundQ;
+    [SerializeField] AK.Wwise.Event chargeEndQ;
+    [SerializeField] AK.Wwise.Event BoostSound;
+    [SerializeField] AK.Wwise.Event DrillBoostSound;
+    [SerializeField] AK.Wwise.Event Impact;
+
+
+
+
 
     private void Start()
     {
@@ -110,6 +121,8 @@ public class DrillPlayerMovement : MonoBehaviour
                     if (!capsuleCollider.isTrigger && canSlam)
                     {
                         slamAiming = true;
+                        chargeSound.Post(gameObject);
+                        chargeEndQ.Post(gameObject);
                     }
                     jumpPreloadTimer = jumpPreloadTimerMax; //if I'm in the air and I press the jump button, preload it so I can jump if I land very soon
                 }
@@ -123,13 +136,23 @@ public class DrillPlayerMovement : MonoBehaviour
         if (slamAiming)
         {
             AimTimer -= Time.deltaTime;
-            if (AimTimer <= 0) slamAiming = false;
+            if (AimTimer <= 0)
+            {
+                slamAiming = false;
+                chargeEnd.Post(gameObject);
+            } 
             if (myPlayerInput.actions["Jump"].WasReleasedThisFrame())
             {
                 print("released");
                 canSlam = false;
                 slamAiming = false;
                 slamming = true;
+
+                //sound effect transition
+                chargeEnd.Post(gameObject);
+                chargeSoundQ.Post(gameObject);
+                BoostSound.Post(gameObject);
+
                 for (int i = 0; i < 3; i++)
                 {
                     createParticles(particleCount * 2, ExhaustColor, new Vector3(drillBit.transform.localPosition.x, drillBit.transform.localPosition.y, drillBit.transform.localPosition.z));
@@ -164,6 +187,7 @@ public class DrillPlayerMovement : MonoBehaviour
 
         }
 
+        //movement for both drilling and slam-aiming, contains game over code for convenience
         if (drilling)
         {
             // GAME OVER STATE CODE + MOVEMENT
@@ -173,6 +197,7 @@ public class DrillPlayerMovement : MonoBehaviour
             }
             else if (!GameOverState)
             {
+                chargeEndQ.Post(gameObject);
                 drillEnd.Post(gameObject);
                 musicController.musicGameOver();
                 GameOverState = true;
@@ -272,6 +297,7 @@ public class DrillPlayerMovement : MonoBehaviour
             if (velocity.magnitude < drillSpeedRec)
             {
                 slamming = false;
+                chargeEndQ.Post(gameObject);
                 print("burnout");
                 footBoxCollider.isTrigger = false;
                 capsuleCollider.isTrigger = false;
@@ -391,6 +417,7 @@ public class DrillPlayerMovement : MonoBehaviour
         if(collision.gameObject.tag == "Obstruction") 
         {
             print("interaction");
+            Impact.Post(gameObject);
             createParticles(particleCount / 2,collision.GetComponent<SpriteRenderer>().color, Vector3.zero);
             createParticles(particleCount / 2, CollisionColor, Vector3.zero);
             var collisionPoint = collision.ClosestPoint(transform.position);
@@ -495,10 +522,20 @@ public class DrillPlayerMovement : MonoBehaviour
             platformsEntered--;
             if (platformsEntered < 0) platformsEntered = 0;
             print("Left " + platformsEntered);
+
+            //converts current downwards angle into a vector to apply to the rigidbody. the x vector is added to a degrading momentum so it can be factored into the general horizontal calculation in fixed update
+            float boostAngle = (transform.localEulerAngles.z - 90) * Mathf.Deg2Rad;
+            float boostY = Mathf.Sin(boostAngle);
+            float boostX = Mathf.Cos(boostAngle);
+            Momentum = boostX * (DrillBoostPower + drillSpeedBoostConversion * drillSpeed);
+            velocity.y += boostY * (DrillBoostPower + drillSpeedBoostConversion * drillSpeed);
+            canSlam = true;
+
             if (platformsEntered == 0)
             {
                 drillSpeed = 0;
                 drillEnd.Post(gameObject);
+                DrillBoostSound.Post(gameObject);
             }
             drilling = false;
             slamming = true;
@@ -509,13 +546,6 @@ public class DrillPlayerMovement : MonoBehaviour
             {
                 velocity.y += DrillVerticalBoost;
             }
-            //converts current downwards angle into a vector to apply to the rigidbody. the x vector is added to a degrading momentum so it can be factored into the general horizontal calculation in fixed update
-            float boostAngle = (transform.localEulerAngles.z - 90) * Mathf.Deg2Rad;
-            float boostY = Mathf.Sin(boostAngle);
-            float boostX = Mathf.Cos(boostAngle);
-            Momentum = boostX * (DrillBoostPower + drillSpeedBoostConversion * drillSpeed);
-            velocity.y += boostY * (DrillBoostPower + drillSpeedBoostConversion * drillSpeed);
-            canSlam = true;
 
             //resets vibrating drillbit
             drillBit.transform.localPosition = Vector3.zero;

@@ -37,7 +37,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3898083304" Type="User" Language="SFX" Hash="{369BA2F2-9E2D-1301-F8EA-347370DF70A0}">
+		<SoundBank Id="3898083304" Type="User" Language="SFX" Hash="{8E99DFC3-831B-0EE1-9452-B51FBC91AC97}">
 			<ShortName>SoundEffects</ShortName>
 			<Path>SoundEffects.bnk</Path>
 			<Media>
@@ -53,9 +53,21 @@
 					<ShortName>StoneScratch2.wav</ShortName>
 					<CachePath>SFX/StoneScratch2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="199972892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DrillBoost.wav</ShortName>
+					<CachePath>SFX/DrillBoost_818F3B66.wem</CachePath>
+				</File>
 				<File Id="214067460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalScrape2.wav</ShortName>
 					<CachePath>SFX/MetalScrape2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="267370120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boost.wav</ShortName>
+					<CachePath>SFX/Boost_818F3B66.wem</CachePath>
+				</File>
+				<File Id="315023431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>QuietBoost.wav</ShortName>
+					<CachePath>SFX/QuietBoost_818F3B66.wem</CachePath>
 				</File>
 				<File Id="401132180" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drill.wav</ShortName>
@@ -68,6 +80,10 @@
 				<File Id="544066936" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spark1.wav</ShortName>
 					<CachePath>SFX/Spark1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="589169861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Charge.wav</ShortName>
+					<CachePath>SFX/Charge_1CBB6F45.wem</CachePath>
 				</File>
 				<File Id="589229231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shovel1.wav</ShortName>
@@ -84,6 +100,10 @@
 				<File Id="713109001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalScrape3.wav</ShortName>
 					<CachePath>SFX/MetalScrape3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="797087970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Charge.wav</ShortName>
+					<CachePath>SFX/Charge_B187F729.wem</CachePath>
 				</File>
 				<File Id="797559395" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalScrape1.wav</ShortName>
@@ -107,6 +127,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3783768423" Name="Play_Boost" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="267370120"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1917381476" Name="Play_ButtonOver" DurationType="OneShot" DurationMin="1.0681633" DurationMax="1.0681633">
 					<MediaRefs>
 						<MediaRef Id="662469755"/>
@@ -117,9 +142,24 @@
 						<MediaRef Id="662469755"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1543804514" Name="Play_Charge" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="589169861"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1027128375" Name="Play_ChargeQ" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="797087970"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4076093797" Name="Play_Drill" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="401132180"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3935273830" Name="Play_DrillBoost" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="199972892"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3364403426" Name="Play_Fuel" DurationType="OneShot" DurationMin="0.57" DurationMax="0.57">
@@ -143,15 +183,22 @@
 						<MediaRef Id="1052424853"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3604071763" Name="Play_QuietBoost" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="315023431"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2958894185" Name="Play_Treasure" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="403842014"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="805241836" Name="Stop_Charge" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2054368501" Name="Stop_ChargeQ" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="376381163" Name="Stop_Drill" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{D0640232-371C-15CF-6BA5-5DB7F2E1945F}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{437684C1-5290-0337-14ED-C3E5BAEA4632}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -263,5 +310,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{255CF74A-5532-15A2-0F5A-6FC2F0C91755}</FileHash>
+	<FileHash>{7D2797B0-FF38-554A-4BD7-429A337A0291}</FileHash>
 </SoundBanksInfo>

@@ -8,8 +8,9 @@ public class MenuConStart : MenuController
     [SerializeField] AK.Wwise.Event MenuStop;
     [SerializeField] string SceneName;
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
+        base.Update();
         if (isOver && Input.GetKeyUp(KeyCode.Mouse0))
         {
             SceneManager.LoadScene(SceneName);

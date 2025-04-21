@@ -14,20 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Drill" ID="{6CF4C822-3D8C-4011-83B9-08C1161DC921}">
-					<ChildrenList>
-						<Action Name="" ID="{62BB4141-465A-4380-BEB5-9A69E5E2F7DB}" ShortID="1005100884">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Drill" ID="{D30B1BB3-063F-433A-BA7C-C8DBE4A1D46B}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Fuel" ID="{B16570A7-F8F4-41A9-9DB7-EBA811472980}">
 					<ChildrenList>
 						<Action Name="" ID="{DA4083A9-379E-4F05-9EB9-D7DA65F1B0A5}" ShortID="556514039">
@@ -61,37 +47,9 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_GameStateMusic" ID="{CFCFCDD1-F0CA-4D66-860F-AA65916BBC94}">
-					<ChildrenList>
-						<Action Name="" ID="{C44C65C3-E84F-45CE-A8CD-3E833C51C0FD}" ShortID="582896270">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_MenuMusic" ID="{E44FE887-D47D-4F29-9FC6-F15483CC2B5C}">
 					<ChildrenList>
 						<Action Name="" ID="{3C6BD428-A19A-4662-9BB2-EDA1F5FEC804}" ShortID="563108325">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MenuMusic" ID="{E199FC3F-73A2-4D29-9FB6-8E566357C385}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_MenuMusic" ID="{0770421F-4D6E-45E2-BDF6-06CB0FBC5DB1}">
-					<ChildrenList>
-						<Action Name="" ID="{12544B81-37EE-4DB0-B491-E1A32BAFEB59}" ShortID="760581169">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MenuMusic" ID="{E199FC3F-73A2-4D29-9FB6-8E566357C385}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
@@ -144,31 +102,131 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Charge" ID="{A697F85F-6338-4ED5-9E73-A9DD9701EB15}">
+				<Event Name="Play_ChargeQ" ID="{44E76925-ECE1-42ED-9C2D-7233B2315950}">
 					<ChildrenList>
-						<Action Name="" ID="{31A3C028-5D85-4F66-879A-005228978536}" ShortID="178494478">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
+						<Action Name="" ID="{D5A39AAB-9409-4B34-A758-17D36EA480D8}" ShortID="82672264">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Charge" ID="{85730C89-E103-417B-B393-E2B988D9F45E}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+									<ObjectRef Name="ChargeQ" ID="{AF81C9B7-EC91-4893-99BF-23242C40D1CA}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Boost" ID="{BAA45856-3016-4645-A6FE-5B00A33DB7B9}">
+				<Folder Name="Boosts" ID="{A3FF3B34-A336-4422-BD68-95D04DE9E489}" ShortID="642325797">
 					<ChildrenList>
-						<Action Name="" ID="{712F2B2A-DC45-43B9-ACFE-CFA9ED71D0C0}" ShortID="119646365">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Boost" ID="{C3CF9AC7-FE3F-46BD-B4B3-F087E2EFB4B2}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Boost" ID="{BAA45856-3016-4645-A6FE-5B00A33DB7B9}">
+							<ChildrenList>
+								<Action Name="" ID="{712F2B2A-DC45-43B9-ACFE-CFA9ED71D0C0}" ShortID="119646365">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boost" ID="{C3CF9AC7-FE3F-46BD-B4B3-F087E2EFB4B2}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DrillBoost" ID="{87F1C461-F14B-4BDE-AF28-085E47BA32D7}">
+							<ChildrenList>
+								<Action Name="" ID="{611A0BBA-00BE-4AFB-AF30-CC76E0DAEAFC}" ShortID="619130363">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DrillBoost" ID="{50B0F1CF-EB88-4678-BA69-673D53ADA564}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_QuietBoost" ID="{5C994F47-1464-44F5-8CA4-1951ECE7EE65}">
+							<ChildrenList>
+								<Action Name="" ID="{556E6888-F060-4E94-80FE-7073C2D3B77D}" ShortID="11149136">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="QuietBoost" ID="{13001D54-FB84-4F1B-970B-676CD290A0BB}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Stops" ID="{94E5AB8F-151A-45FB-BC78-04503A911831}" ShortID="518790448">
+					<ChildrenList>
+						<Event Name="Stop_Drill" ID="{6CF4C822-3D8C-4011-83B9-08C1161DC921}">
+							<ChildrenList>
+								<Action Name="" ID="{62BB4141-465A-4380-BEB5-9A69E5E2F7DB}" ShortID="1005100884">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drill" ID="{D30B1BB3-063F-433A-BA7C-C8DBE4A1D46B}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_GameStateMusic" ID="{CFCFCDD1-F0CA-4D66-860F-AA65916BBC94}">
+							<ChildrenList>
+								<Action Name="" ID="{C44C65C3-E84F-45CE-A8CD-3E833C51C0FD}" ShortID="582896270">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Charge" ID="{A697F85F-6338-4ED5-9E73-A9DD9701EB15}">
+							<ChildrenList>
+								<Action Name="" ID="{31A3C028-5D85-4F66-879A-005228978536}" ShortID="178494478">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Charge" ID="{85730C89-E103-417B-B393-E2B988D9F45E}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_MenuMusic" ID="{0770421F-4D6E-45E2-BDF6-06CB0FBC5DB1}">
+							<ChildrenList>
+								<Action Name="" ID="{12544B81-37EE-4DB0-B491-E1A32BAFEB59}" ShortID="760581169">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MenuMusic" ID="{E199FC3F-73A2-4D29-9FB6-8E566357C385}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_ChargeQ" ID="{1C6C7FCE-BA3E-4676-B9A1-1A8D13A17E04}">
+							<ChildrenList>
+								<Action Name="" ID="{3276AC81-C842-48C3-B45A-480439221394}" ShortID="980745057">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ChargeQ" ID="{AF81C9B7-EC91-4893-99BF-23242C40D1CA}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,8 +9,9 @@ public class HighscoreConfirmation : MenuController
 
 
     // Update is called once per frame
-    void Update()
+    public override void Update()
     {
+        base.Update();
         if (isOver && Input.GetKeyUp(KeyCode.Mouse0))
         {
             GOCon.ContinueGameOver();

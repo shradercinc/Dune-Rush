@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2867e13ae3cad954f8d6f3a1313c706d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BaseScoreMod: 500
+  BaseScoreMod: 1600
   OddsLeaderBoard: {fileID: 1537851165}
   EvensLeaderBoard: {fileID: 1244916071}
 --- !u!1 &13073320
@@ -933,6 +933,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuToVanish: {fileID: 1333246232}
   MenuToAppear: {fileID: 9397928}
 --- !u!1 &241013462
@@ -2829,6 +2837,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuStop:
     idInternal: 0
     valueGuidInternal: 
@@ -3474,6 +3490,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MyLeaderboard: {fileID: 9397930}
 --- !u!1001 &1152085631
 PrefabInstance:
@@ -3582,6 +3606,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuToVanish: {fileID: 1333246232}
   MenuToAppear: {fileID: 1535556467}
 --- !u!1 &1153041803
@@ -5093,6 +5125,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuToVanish: {fileID: 1333246232}
   MenuToAppear: {fileID: 299078882}
 --- !u!1 &1580190168
@@ -5578,6 +5618,7 @@ GameObject:
   - component: {fileID: 1737891852}
   - component: {fileID: 1737891851}
   - component: {fileID: 1737891856}
+  - component: {fileID: 1737891857}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5705,6 +5746,31 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a4ac1a314fcb8b044805fbb75d930203, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1737891857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737891850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0830a088921b07440b27aa3e56a906df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5d87aa9bdbd3c47488efba0533779c69, type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0
@@ -6922,6 +6988,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuToVanish: {fileID: 9397928}
   MenuToAppear: {fileID: 1333246232}
 --- !u!1 &1956029854
@@ -7379,6 +7453,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuToVanish: {fileID: 299078882}
   MenuToAppear: {fileID: 1333246232}
 --- !u!1 &2003178388
@@ -7794,6 +7876,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSize: 1.2
+  mouseOverSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3f20c2513e048274f949ff0afb39ed4a, type: 2}
+  mouseClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 33bcdae922023df479183a556d6023aa, type: 2}
   MenuToVanish: {fileID: 1535556467}
   MenuToAppear: {fileID: 1333246232}
 --- !u!1 &2077324681

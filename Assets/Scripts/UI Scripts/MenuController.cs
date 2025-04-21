@@ -12,6 +12,10 @@ public class MenuController : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     [SerializeField] protected float hoverSize;
     protected Vector3 baseSize;
     bool hasStart = false;
+    [SerializeField] protected AK.Wwise.Event mouseOverSound;
+    [SerializeField] protected AK.Wwise.Event mouseClickSound;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,8 +28,11 @@ public class MenuController : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public void OnPointerEnter(PointerEventData data)
     {
+
         //print("enter");
         isOver = true;
+        print("Post");
+        mouseOverSound.Post(gameObject);
         transform.localScale = baseSize * hoverSize;
 
 
@@ -48,9 +55,8 @@ public class MenuController : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
-
-
+        if (isOver && Input.GetKeyDown(KeyCode.Mouse0)) mouseClickSound.Post(gameObject);
     }
 }

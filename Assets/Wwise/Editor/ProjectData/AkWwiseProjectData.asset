@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a7a6d7c49839504b8c6af1812bafcf9e
     GuidInternal: 
-    m_lastTime: -8584565973452107998
+    m_lastTime: -8584564053150514670
     List:
     - name: Music
       guid: 63daefb7aaf3024b91be9141016a6a66
@@ -108,8 +108,45 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ea580007c7179c49b5695cb8204e286c
     GuidInternal: 
-    m_lastTime: -8584565973572576417
+    m_lastTime: -8584564053150694371
     List:
+    - name: Boosts
+      guid: 343bffa336a32244bd6895d04de9e489
+      id: 2152238913
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Boosts
+        ObjectType: 4
+        guid: 343bffa336a32244bd6895d04de9e489
+      Path: Events\Default Work Unit\Boosts
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Boost
+      guid: 5658a4ba16304546a6fe5b00a33db7b9
+      id: 3783768423
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Boosts
+        ObjectType: 4
+        guid: 343bffa336a32244bd6895d04de9e489
+      - ElementName: Play_Boost
+        ObjectType: 3
+        guid: 5658a4ba16304546a6fe5b00a33db7b9
+      Path: Events\Default Work Unit\Boosts\Play_Boost
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
     - name: Play_ButtonOver
       guid: a9c901139cb2884e9840e862bb3b19c7
       id: 1917381476
@@ -144,6 +181,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.2269974
       minDuration: 1.2269974
+    - name: Play_Charge
+      guid: 22dbe7c7b627fe4882cec1d540d6dcb1
+      id: 1543804514
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_Charge
+        ObjectType: 3
+        guid: 22dbe7c7b627fe4882cec1d540d6dcb1
+      Path: Events\Default Work Unit\Play_Charge
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ChargeQ
+      guid: 2569e744e1eced429c2d7233b2315950
+      id: 1027128375
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_ChargeQ
+        ObjectType: 3
+        guid: 2569e744e1eced429c2d7233b2315950
+      Path: Events\Default Work Unit\Play_ChargeQ
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Drill
       guid: 0185c5e10e837f43851e7de11ccc73f8
       id: 4076093797
@@ -161,6 +232,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_DrillBoost
+      guid: 61c4f1874bf1de4baf28085e47ba32d7
+      id: 3935273830
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Boosts
+        ObjectType: 4
+        guid: 343bffa336a32244bd6895d04de9e489
+      - ElementName: Play_DrillBoost
+        ObjectType: 3
+        guid: 61c4f1874bf1de4baf28085e47ba32d7
+      Path: Events\Default Work Unit\Boosts\Play_DrillBoost
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
     - name: Play_Fuel
       guid: a77065b1f4f8a9419db7eba811472980
       id: 3364403426
@@ -195,6 +286,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Impact
+      guid: a56e8f90e420d74d9d3d0bbc385bf977
+      id: 2764105556
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_Impact
+        ObjectType: 3
+        guid: a56e8f90e420d74d9d3d0bbc385bf977
+      Path: Events\Default Work Unit\Play_Impact
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.5
     - name: Play_MenuMusic
       guid: 87e84fe47dd4294f9fc6f15483cc2b5c
       id: 2570041344
@@ -212,6 +320,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_QuietBoost
+      guid: 474f995c6414f5448ca41951ece7ee65
+      id: 3604071763
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Boosts
+        ObjectType: 4
+        guid: 343bffa336a32244bd6895d04de9e489
+      - ElementName: Play_QuietBoost
+        ObjectType: 3
+        guid: 474f995c6414f5448ca41951ece7ee65
+      Path: Events\Default Work Unit\Boosts\Play_QuietBoost
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
     - name: Play_Treasure
       guid: 69f5093846634f4395f9c2e3cf80f51d
       id: 2958894185
@@ -229,6 +357,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.5
       minDuration: 1.5
+    - name: Stop_Charge
+      guid: 5ff897a63863d54e9e73a9dd9701eb15
+      id: 805241836
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stops
+        ObjectType: 4
+        guid: 8fabe5941a15fb45bc7804503a911831
+      - ElementName: Stop_Charge
+        ObjectType: 3
+        guid: 5ff897a63863d54e9e73a9dd9701eb15
+      Path: Events\Default Work Unit\Stops\Stop_Charge
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_ChargeQ
+      guid: ce7f6c1c3eba7646b9a11a8d13a17e04
+      id: 2054368501
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stops
+        ObjectType: 4
+        guid: 8fabe5941a15fb45bc7804503a911831
+      - ElementName: Stop_ChargeQ
+        ObjectType: 3
+        guid: ce7f6c1c3eba7646b9a11a8d13a17e04
+      Path: Events\Default Work Unit\Stops\Stop_ChargeQ
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Drill
       guid: 22c8f46c8c3d114083b908c1161dc921
       id: 376381163
@@ -239,10 +407,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stops
+        ObjectType: 4
+        guid: 8fabe5941a15fb45bc7804503a911831
       - ElementName: Stop_Drill
         ObjectType: 3
         guid: 22c8f46c8c3d114083b908c1161dc921
-      Path: Events\Default Work Unit\Stop_Drill
+      Path: Events\Default Work Unit\Stops\Stop_Drill
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -256,10 +427,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stops
+        ObjectType: 4
+        guid: 8fabe5941a15fb45bc7804503a911831
       - ElementName: Stop_GameStateMusic
         ObjectType: 3
         guid: d1cdcfcfcaf0664d860faa65916bbc94
-      Path: Events\Default Work Unit\Stop_GameStateMusic
+      Path: Events\Default Work Unit\Stops\Stop_GameStateMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -273,13 +447,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stops
+        ObjectType: 4
+        guid: 8fabe5941a15fb45bc7804503a911831
       - ElementName: Stop_MenuMusic
         ObjectType: 3
         guid: 1f4270076e4de245bdf606cb0fbc5db1
-      Path: Events\Default Work Unit\Stop_MenuMusic
+      Path: Events\Default Work Unit\Stops\Stop_MenuMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stops
+      guid: 8fabe5941a15fb45bc7804503a911831
+      id: 1653184020
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stops
+        ObjectType: 4
+        guid: 8fabe5941a15fb45bc7804503a911831
+      Path: Events\Default Work Unit\Stops
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -421,7 +615,7 @@ MonoBehaviour:
     m_lastTime: -8584595608146776235
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000d000000
+  ExpandedWaapiItemIds: 0500000006000000070000000c0000000d0000001600000017000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
