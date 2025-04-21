@@ -1,8 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1605173404	Stop_Dune_Rush_Menu_Loop			\Default Work Unit\Stop_Dune_Rush_Menu_Loop	
 	1696622214	Stop_GameStateMusic			\Default Work Unit\Stop_GameStateMusic	
-	2435933422	Play_Dune_Rush_Menu_Loop			\Default Work Unit\Play_Dune_Rush_Menu_Loop	
-	2720335842	Play_Dune_Rush_Menu_Intro			\Default Work Unit\Play_Dune_Rush_Menu_Intro	
+	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
+	2753202630	Stop_MenuMusic			\Default Work Unit\Stop_MenuMusic	
 	4294752536	Play_GameStateMusic			\Default Work Unit\Play_GameStateMusic	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -13,10 +12,10 @@ Switch	ID	Name	Switch Group			Notes
 	4158285989	GameOver	GameState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	19875762	Dune Rush Menu Intro	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Menu Intro_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dune Rush Menu Intro		1253972
+	106472373	Dune Rush Menu Intro	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Menu Intro_FBC78EF0.wem		\Interactive Music Hierarchy\Music\MenuMusic\Dune Rush Menu Intro\Dune Rush Menu Intro		1253972
 	137574788	Dune Rush Gameplay loop E-01	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Gameplay loop E-01_FBC78EF0.wem		\Interactive Music Hierarchy\Music\GameStateMusic\Main Gameplay Loop\Dune Rush Gameplay loop E-01\Dune Rush Gameplay loop E-01		614592
 	188155900	Dune Rush Gameplay End Loop	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Gameplay End Loop_FBC78EF0.wem		\Interactive Music Hierarchy\Music\GameStateMusic\End Gameplay Loop\Dune Rush Gameplay End Loop\Dune Rush Gameplay End Loop		857400
-	277582777	Dune Rush Menu Loop	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Menu Loop_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dune Rush Menu Loop		7523364
+	277582777	Dune Rush Menu Loop	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Menu Loop_FBC78EF0.wem		\Interactive Music Hierarchy\Music\MenuMusic\Dune Rush Menu Loop\Dune Rush Menu Loop		7523364
 	308897180	Dune Rush Gameplay Intro	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Gameplay Intro_FBC78EF0.wem		\Interactive Music Hierarchy\Music\GameStateMusic\Main Gameplay Loop\Dune Rush Gameplay Intro\Dune Rush Gameplay Intro		2457696
 	422720572	Dune Rush Gameplay loop C-02	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Gameplay loop C-02_FBC78EF0.wem		\Interactive Music Hierarchy\Music\GameStateMusic\Main Gameplay Loop\Dune Rush Gameplay loop C-02\Dune Rush Gameplay loop C-02		614592
 	447603185	Dune Rush Gameplay loop C-01	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Windows\SFX\Dune Rush Gameplay loop C-01_FBC78EF0.wem		\Interactive Music Hierarchy\Music\GameStateMusic\Main Gameplay Loop\Dune Rush Gameplay loop C-01\Dune Rush Gameplay loop C-01		614592

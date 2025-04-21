@@ -1,11 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
 	376381163	Stop_Drill			\Default Work Unit\Stop_Drill	
+	1917381476	Play_ButtonOver			\Default Work Unit\Play_ButtonOver	
+	2764105556	Play_Impact			\Default Work Unit\Play_Impact	
 	2958894185	Play_Treasure			\Default Work Unit\Play_Treasure	
+	3138318983	Play_ButtonPressDown			\Default Work Unit\Play_ButtonPressDown	
 	3364403426	Play_Fuel			\Default Work Unit\Play_Fuel	
 	4076093797	Play_Drill			\Default Work Unit\Play_Drill	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52176519	StoneScratch3	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\StoneScratch3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\StoneScrape\StoneScratch3		88296
+	100390140	Shovel3	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Shovel3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\Shovel\Shovel3		88296
+	121674942	StoneScratch2	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\StoneScratch2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\StoneScrape\StoneScratch2		88296
+	214067460	MetalScrape2	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\MetalScrape2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\MetalScrape\MetalScrape2		88296
 	401132180	Drill	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Drill_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drill		1411296
 	403842014	Treasure	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Treasure_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Treasure		264696
+	544066936	Spark1	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Spark1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\Spark\Spark1		88296
+	589229231	Shovel1	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Shovel1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\Shovel\Shovel1		88296
+	662469755	ButtonPressDown	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\ButtonPress_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ButtonPressDown		188520
+	677027441	Shovel2	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Shovel2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\Shovel\Shovel2		88296
+	713109001	MetalScrape3	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\MetalScrape3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\MetalScrape\MetalScrape3		88296
+	797559395	MetalScrape1	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\MetalScrape1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\MetalScrape\MetalScrape1		88296
 	883538488	Fuel	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Fuel_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fuel		100644
+	1024017940	Spark2	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Spark2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\Spark\Spark2		88296
+	1047621286	StoneScratch1	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\StoneScratch1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\StoneScrape\StoneScratch1		88296
+	1052424853	Spark3	C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\GameFeelMidterm_WwiseProject\.cache\Mac\SFX\Spark3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impact\Spark\Spark3		88296
 

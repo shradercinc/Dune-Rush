@@ -11,9 +11,8 @@ public class MenuConStart : MenuController
     void Update()
     {
         if (isOver && Input.GetKeyUp(KeyCode.Mouse0))
-        { 
+        {
             SceneManager.LoadScene(SceneName);
-            MenuStop.Post(gameObject);
         }
     }
 }

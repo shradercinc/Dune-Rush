@@ -6,15 +6,5 @@ public class treasure : MonoBehaviour
 {
     public float value = 0f;    
     public Color particleColor = Color.white;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

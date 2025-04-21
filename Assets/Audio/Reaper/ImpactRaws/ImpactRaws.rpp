@@ -1,0 +1,514 @@
+<REAPER_PROJECT 0.1 "7.09/win64" 1745013638
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 235.72155524206994 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "C:\Users\coles\OneDrive\Desktop\Old Work\Spring 2024\Midterm\Dune-Rush\Assets\Audio\ImpactSFX\Spark1.wav"
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 0 0 0.5 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 2.77150677813183 1.27150677813183
+  SELECTION2 2.77150677813183 1.27150677813183
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1.04761635667824 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {B54663A1-7466-4F4E-A41A-58EFE8289A3A}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {3E04EEF5-5170-437F-A861-B2EFF4247A4C}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {0E35CD2D-2989-48CC-88C8-64A666CFEB83}
+    NAME zapsplat_foley_metal_box_empty_old_movement_slide_scrape_concrete_then_set_down_and_rock_107424
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0E35CD2D-2989-48CC-88C8-64A666CFEB83}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3.67941666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7D776A75-9007-4ED7-B8AD-872A580A431F}
+      IID 1
+      NAME zapsplat_foley_metal_box_empty_old_movement_slide_scrape_concrete_then_set_down_and_rock_107424.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8AFA8EBB-2679-4D50-877D-349CC2FF0B7F}
+      <SOURCE MP3
+        FILE "Media\zapsplat_foley_metal_box_empty_old_movement_slide_scrape_concrete_then_set_down_and_rock_107424.mp3" 1
+      >
+    >
+  >
+  <TRACK {D35A38B3-71DF-4826-8F85-7F3D29B2D9B9}
+    NAME aaj_0093_MetalScrpRck1
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.76172702823122 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D35A38B3-71DF-4826-8F85-7F3D29B2D9B9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.3715283657607
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B05F357C-1B72-41F6-A7EA-F8AE8CC90B4F}
+      IID 2
+      NAME aaj_0093_MetalScrpRck1.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.4284716342393
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E934AF7-6416-4A93-A461-4621CCD778E5}
+      <SOURCE MP3
+        FILE "Media\aaj_0093_MetalScrpRck1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.21635696382381
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.21635696382381 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {42A6DC02-165C-48F0-8465-F890E9F63FF4}
+      IID 2
+      NAME aaj_0093_MetalScrpRck1.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.15991796701033
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1CC0F0C0-EBD1-4D95-995A-798448A8F51B}
+      <SOURCE MP3
+        FILE "Media\aaj_0093_MetalScrpRck1.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2.0066047821306
+      SNAPOFFS 0
+      LENGTH 0.20975218169321
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.2163569638238 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {05F1B90E-F17E-4E9B-8B48-B9B627B01AEC}
+      IID 2
+      NAME aaj_0093_MetalScrpRck1.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.02040496857237
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6C4C7FDD-613C-438C-8468-F990B46559DC}
+      <SOURCE MP3
+        FILE "Media\aaj_0093_MetalScrpRck1.mp3" 1
+      >
+    >
+  >
+  <TRACK {BAB311DE-4FA2-46AE-89F4-E95EAF763F0E}
+    NAME zapsplat_foley_rock_scrape_on_metal_bar_002_13386
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.57403385915171 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BAB311DE-4FA2-46AE-89F4-E95EAF763F0E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.00424229340831
+      SNAPOFFS 0
+      LENGTH 0.28847595176508
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0 1 0 0 0
+      FADEOUT 1 0.28847595176508 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B7E0411C-68BA-42B7-89D1-AA65D90B70DC}
+      IID 3
+      NAME zapsplat_foley_rock_scrape_on_metal_bar_002_13386.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.37450306429242
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {341B7DB1-F770-43BA-B75B-C8D408F77060}
+      <SOURCE MP3
+        FILE "Media\zapsplat_foley_rock_scrape_on_metal_bar_002_13386.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.28423365835677
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.28847595176507 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C667E7EA-CC60-443F-AF61-E4E0AAA9B1FC}
+      IID 3
+      NAME zapsplat_foley_rock_scrape_on_metal_bar_002_13386.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.63081253533273
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4721F34D-4354-4A97-B69A-9C3B39EBD7A9}
+      <SOURCE MP3
+        FILE "Media\zapsplat_foley_rock_scrape_on_metal_bar_002_13386.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.29083844048737
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.28423365835676 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {28DAD9CD-6460-4A6B-9822-17533A089794}
+      IID 3
+      NAME zapsplat_foley_rock_scrape_on_metal_bar_002_13386.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.35130385442054
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D8AB879-663D-4693-A573-2F723735F590}
+      <SOURCE MP3
+        FILE "Media\zapsplat_foley_rock_scrape_on_metal_bar_002_13386.mp3" 1
+      >
+    >
+  >
+  <TRACK {26057A12-EBF9-4E5C-B0C4-C4DF3DF1A7FC}
+    NAME zapsplat_industrial_shovel_fall_over_concrete_002_14183
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {26057A12-EBF9-4E5C-B0C4-C4DF3DF1A7FC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.37332181993127
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.15696485610747 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4847EDAF-1E25-45D7-86E5-901A559F3365}
+      IID 4
+      NAME zapsplat_industrial_shovel_fall_over_concrete_002_14183.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.02969605385817
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A79A21E1-37BE-429C-99DC-49900BAAF50B}
+      <SOURCE MP3
+        FILE "Media\zapsplat_industrial_shovel_fall_over_concrete_002_14183.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.23332613745705
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.03818064067479 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A948BF37-E1BB-4EF1-BC7D-5CBEF0CE65E8}
+      IID 4
+      NAME zapsplat_industrial_shovel_fall_over_concrete_002_14183.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.39995682474228
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F26B3D7-D42E-4506-8CA0-40E267270226}
+      <SOURCE MP3
+        FILE "Media\zapsplat_industrial_shovel_fall_over_concrete_002_14183.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.32053449434554
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE396FEE-2489-4045-AC8A-6ECBBF1749EB}
+      IID 4
+      NAME zapsplat_industrial_shovel_fall_over_concrete_002_14183.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.627160864105
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47A63643-2AB5-4EF1-B609-725C0DD0B074}
+      <SOURCE MP3
+        FILE "Media\zapsplat_industrial_shovel_fall_over_concrete_002_14183.mp3" 1
+      >
+      <VOLENV
+        EGUID {B2649132-6262-4651-B6C6-A13BECE4D6BC}
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 0
+        DEFSHAPE 0 -1 -1
+        VOLTYPE 1
+        PT 0 1.47910839 0
+      >
+    >
+  >
+  <TRACK {E9B91CE3-A1EA-4FC9-9614-F81C2BA7AF38}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 2.13238671326417 0 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E9B91CE3-A1EA-4FC9-9614-F81C2BA7AF38}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.28847595176508
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.5 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B12D0949-70B1-415A-8B87-A7A5D58367FA}
+      IID 5
+      NAME Blastwave_FX_WelderRunSparks_SFXB.2704.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {30A41313-2C6E-4A2E-B5BB-0CD5E162B4E1}
+      <SOURCE MP3
+        FILE "Media\Blastwave_FX_WelderRunSparks_SFXB.2704.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.27150677813184
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.28847595176508 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {68E0F89E-E1BE-4940-B335-173CC8163203}
+      IID 5
+      NAME Blastwave_FX_WelderRunSparks_SFXB.2704.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.72355236813498
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50F92B13-2C9F-4E76-8E46-424FDD02754C}
+      <SOURCE MP3
+        FILE "Media\Blastwave_FX_WelderRunSparks_SFXB.2704.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.37332181993127
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.27150677813183 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6653AB41-78C5-49B1-B4B5-9DFA090E95CB}
+      IID 5
+      NAME Blastwave_FX_WelderRunSparks_SFXB.2704.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 3.37498574832869
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {59F4D2FB-4BD7-4C18-883D-499DB978BD20}
+      <SOURCE MP3
+        FILE "Media\Blastwave_FX_WelderRunSparks_SFXB.2704.mp3" 1
+      >
+    >
+  >
+>

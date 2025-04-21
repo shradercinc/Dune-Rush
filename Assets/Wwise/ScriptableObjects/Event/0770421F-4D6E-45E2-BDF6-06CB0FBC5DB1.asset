@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ef0f2d5e77cbaf49a09667f00f5b29f, type: 3}
-  m_Name: 5B0189D6-0B83-4636-ADB9-EADE2E4A5516
+  m_Name: 0770421F-4D6E-45E2-BDF6-06CB0FBC5DB1
   m_EditorClassIdentifier: 
-  objectName: Play_Dune_Rush_Menu_Loop
-  id: 2435933422
-  guid: 5B0189D6-0B83-4636-ADB9-EADE2E4A5516
+  objectName: Stop_MenuMusic
+  id: 2753202630
+  guid: 0770421F-4D6E-45E2-BDF6-06CB0FBC5DB1

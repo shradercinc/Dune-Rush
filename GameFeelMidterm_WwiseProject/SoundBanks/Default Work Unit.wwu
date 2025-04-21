@@ -9,17 +9,22 @@
 						<ObjectRef Name="Play_Fuel" ID="{B16570A7-F8F4-41A9-9DB7-EBA811472980}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Treasure" ID="{3809F569-6346-434F-95F9-C2E3CF80F51D}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drill" ID="{E1C58501-830E-437F-851E-7DE11CCC73F8}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ButtonPressDown" ID="{9CCCBD46-AC83-452E-B7D1-1837474D6B5D}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Boost" ID="{BAA45856-3016-4645-A6FE-5B00A33DB7B9}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Charge" ID="{C7E7DB22-27B6-48FE-82CE-C1D540D6DCB1}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Impact" ID="{908F6EA5-20E4-4DD7-9D3D-0BBC385BF977}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ButtonOver" ID="{1301C9A9-B29C-4E88-9840-E862BB3B19C7}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Charge" ID="{A697F85F-6338-4ED5-9E73-A9DD9701EB15}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Music" ID="{B7EFDA63-F3AA-4B02-91BE-9141016A6A66}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Dune_Rush_Menu_Loop" ID="{5B0189D6-0B83-4636-ADB9-EADE2E4A5516}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_MenuMusic" ID="{0770421F-4D6E-45E2-BDF6-06CB0FBC5DB1}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GameStateMusic" ID="{AE250B5B-FAE5-4A0C-956E-7C0DF7EAD0D1}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Dune_Rush_Menu_Loop" ID="{D37E33A5-1087-4B06-B862-C6B332247FB6}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_GameStateMusic" ID="{CFCFCDD1-F0CA-4D66-860F-AA65916BBC94}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Dune_Rush_Menu_Intro" ID="{BA8F0086-F1DA-4EC6-B938-2F628FD958EE}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuMusic" ID="{E44FE887-D47D-4F29-9FC6-F15483CC2B5C}" WorkUnitID="{070058EA-17C7-499C-B569-5CB8204E286C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

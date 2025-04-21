@@ -11,12 +11,13 @@ public class LevelMusicControl : MonoBehaviour
     void Start()
     {
         AkSoundEngine.SetSwitch("GameState", "GameOn", gameObject);
+        AkSoundEngine.StopAll();
         MusicLoop.Post(gameObject);
     }
 
     public void onSceneExit()
     {
-        MusicStop.Post(gameObject);
+        //MusicStop.Post(gameObject);
     }
 
     public void musicGameOver()

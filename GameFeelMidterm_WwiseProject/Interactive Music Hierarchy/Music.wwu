@@ -6,6 +6,11 @@
 				<MusicSwitchContainer Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" ShortID="908348299">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="150"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1426,6 +1431,241 @@
 						</ObjectList>
 					</ObjectLists>
 				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="MenuMusic" ID="{E199FC3F-73A2-4D29-9FB6-8E566357C385}" ShortID="311758015">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{20AA7A04-4B4D-4AB9-86C9-88441BC6A575}" ShortID="547338008">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{854274F6-26FD-429A-9FD6-7B5AC4FCB43B}" ShortID="658033499">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Dune Rush Menu Intro" ID="{F1D5287A-ED99-4AB1-9B6B-3A4CF1EA1A0B}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4B49CA05-6E08-4C4E-A54D-7A7BB8FD8317}" ShortID="967496764">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Dune Rush Menu Loop" ID="{697A7560-B775-4AD2-85CF-935891DF3F04}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{911E8E67-E5B8-46FE-8711-E9B13701D29F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CB4217FF-9920-458D-815C-2B3CC66260DB}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Dune Rush Menu Intro" ID="{F1D5287A-ED99-4AB1-9B6B-3A4CF1EA1A0B}" ShortID="85366305">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="6530.60416666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Menu Intro" ID="{13BC4878-856F-414B-B7EA-76158D87913D}" ShortID="788289943">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{1387FF24-7E95-4019-B705-C8E04AB41051}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Menu Intro" ID="{BEF81B09-9041-4E37-9C42-568635A0EE7E}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Menu Intro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106472373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{CCE4BF56-F2F4-48B2-8F0F-A23B8FCA827C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Menu Intro" ID="{59C82951-341D-417F-BBFC-7D7D549B7CB7}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="6530.60416666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Menu Intro" ID="{BEF81B09-9041-4E37-9C42-568635A0EE7E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C663D277-F329-4E08-99E4-1C4136B8746D}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E0098FE0-3F1B-4A0E-9239-1C2CF43DA53D}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="6530.60416666667"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Dune Rush Menu Loop" ID="{697A7560-B775-4AD2-85CF-935891DF3F04}" ShortID="68280773">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="39183.6875"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D1D65878-E970-4211-A61C-77516D55C455}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Dune Rush Menu Loop" ID="{98B8EDF0-1BA4-40B1-BA4F-B9558968D871}" ShortID="65698580">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{653388E6-0153-4816-A902-B636F7EC4F0F}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{9DB6FBC4-0CF8-4292-B013-F043E2F29682}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dune Rush Menu Loop" ID="{82AFA83B-B3F3-4741-95DF-5EC6B99969D7}">
+											<Language>SFX</Language>
+											<AudioFile>Dune Rush Menu Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="277582777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F340856D-7C41-4B89-BCAA-C5CE277D3BC4}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Dune Rush Menu Loop" ID="{8A36B198-0EC5-42FC-A947-136DBAF9C645}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="39183.6875"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Dune Rush Menu Loop" ID="{82AFA83B-B3F3-4741-95DF-5EC6B99969D7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{D19B86FF-8BE7-43D0-8D25-65F5C1F70974}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{2AD17FE6-158D-4A81-B38B-6681FC25DAF4}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="39183.6875"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

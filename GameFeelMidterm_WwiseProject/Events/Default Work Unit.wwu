@@ -50,48 +50,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Dune_Rush_Menu_Intro" ID="{BA8F0086-F1DA-4EC6-B938-2F628FD958EE}">
-					<ChildrenList>
-						<Action Name="" ID="{7279CAA1-9523-4155-B6B5-EAF8A00A5915}" ShortID="576591077">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dune Rush Menu Intro" ID="{D7D44E38-D764-4EE6-82A4-687EACF82B99}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Dune_Rush_Menu_Loop" ID="{5B0189D6-0B83-4636-ADB9-EADE2E4A5516}">
-					<ChildrenList>
-						<Action Name="" ID="{2B105E0C-CFAB-4A11-BDC4-85BAF6F9C83E}" ShortID="405925963">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dune Rush Menu Loop" ID="{475943AB-DAFB-45B5-88B0-E1EA845AD6E4}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_GameStateMusic" ID="{AE250B5B-FAE5-4A0C-956E-7C0DF7EAD0D1}">
 					<ChildrenList>
 						<Action Name="" ID="{0AA89F63-F837-4987-B621-25C7124F2FE3}" ShortID="1062421972">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Dune_Rush_Menu_Loop" ID="{D37E33A5-1087-4B06-B862-C6B332247FB6}">
-					<ChildrenList>
-						<Action Name="" ID="{93382763-7FBA-4467-9D0A-E0961AC803E9}" ShortID="756257264">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dune Rush Menu Loop" ID="{475943AB-DAFB-45B5-88B0-E1EA845AD6E4}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -106,6 +70,100 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GameStateMusic" ID="{913A9AC4-C37A-4C72-85B5-25CA5146E6AB}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuMusic" ID="{E44FE887-D47D-4F29-9FC6-F15483CC2B5C}">
+					<ChildrenList>
+						<Action Name="" ID="{3C6BD428-A19A-4662-9BB2-EDA1F5FEC804}" ShortID="563108325">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuMusic" ID="{E199FC3F-73A2-4D29-9FB6-8E566357C385}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MenuMusic" ID="{0770421F-4D6E-45E2-BDF6-06CB0FBC5DB1}">
+					<ChildrenList>
+						<Action Name="" ID="{12544B81-37EE-4DB0-B491-E1A32BAFEB59}" ShortID="760581169">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuMusic" ID="{E199FC3F-73A2-4D29-9FB6-8E566357C385}" WorkUnitID="{907024B8-12AD-4344-9A97-FF4E1C472086}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ButtonPressDown" ID="{9CCCBD46-AC83-452E-B7D1-1837474D6B5D}">
+					<ChildrenList>
+						<Action Name="" ID="{74978161-9EAA-40E8-9E51-CA7DCAB39DE8}" ShortID="305879481">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonPressDown" ID="{3DEA1726-7808-4283-B0C1-0D08CEDC21E3}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ButtonOver" ID="{1301C9A9-B29C-4E88-9840-E862BB3B19C7}">
+					<ChildrenList>
+						<Action Name="" ID="{4F6F700A-82AC-42A1-AC82-E62A2638C6BB}" ShortID="626477496">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ButtonOver" ID="{B6095419-4358-4223-A10A-DE1C5404058B}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Impact" ID="{908F6EA5-20E4-4DD7-9D3D-0BBC385BF977}">
+					<ChildrenList>
+						<Action Name="" ID="{00639D0E-5B8D-451B-B3B5-C0CCBCD79F29}" ShortID="314869423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact" ID="{F7EE6705-3E05-41EB-A228-293C591C7054}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Charge" ID="{C7E7DB22-27B6-48FE-82CE-C1D540D6DCB1}">
+					<ChildrenList>
+						<Action Name="" ID="{BD8B0D08-179E-4F66-BB72-A59C67FA9990}" ShortID="123554916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Charge" ID="{85730C89-E103-417B-B393-E2B988D9F45E}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Charge" ID="{A697F85F-6338-4ED5-9E73-A9DD9701EB15}">
+					<ChildrenList>
+						<Action Name="" ID="{31A3C028-5D85-4F66-879A-005228978536}" ShortID="178494478">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Charge" ID="{85730C89-E103-417B-B393-E2B988D9F45E}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boost" ID="{BAA45856-3016-4645-A6FE-5B00A33DB7B9}">
+					<ChildrenList>
+						<Action Name="" ID="{712F2B2A-DC45-43B9-ACFE-CFA9ED71D0C0}" ShortID="119646365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boost" ID="{C3CF9AC7-FE3F-46BD-B4B3-F087E2EFB4B2}" WorkUnitID="{78708005-F771-4AFA-A99E-2A2680DD3D89}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

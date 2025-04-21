@@ -37,10 +37,26 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3898083304" Type="User" Language="SFX" Hash="{8911C744-B837-1FCE-4A7E-DA3FFDF51A0B}">
+		<SoundBank Id="3898083304" Type="User" Language="SFX" Hash="{369BA2F2-9E2D-1301-F8EA-347370DF70A0}">
 			<ShortName>SoundEffects</ShortName>
 			<Path>SoundEffects.bnk</Path>
 			<Media>
+				<File Id="52176519" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StoneScratch3.wav</ShortName>
+					<CachePath>SFX/StoneScratch3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="100390140" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shovel3.wav</ShortName>
+					<CachePath>SFX/Shovel3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="121674942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StoneScratch2.wav</ShortName>
+					<CachePath>SFX/StoneScratch2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="214067460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalScrape2.wav</ShortName>
+					<CachePath>SFX/MetalScrape2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="401132180" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drill.wav</ShortName>
 					<CachePath>SFX/Drill_FBC78EF0.wem</CachePath>
@@ -49,12 +65,58 @@
 					<ShortName>Treasure.wav</ShortName>
 					<CachePath>SFX/Treasure_818F3B66.wem</CachePath>
 				</File>
+				<File Id="544066936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spark1.wav</ShortName>
+					<CachePath>SFX/Spark1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="589229231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shovel1.wav</ShortName>
+					<CachePath>SFX/Shovel1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="662469755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ButtonPress.wav</ShortName>
+					<CachePath>SFX/ButtonPress_818F3B66.wem</CachePath>
+				</File>
+				<File Id="677027441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shovel2.wav</ShortName>
+					<CachePath>SFX/Shovel2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="713109001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalScrape3.wav</ShortName>
+					<CachePath>SFX/MetalScrape3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="797559395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalScrape1.wav</ShortName>
+					<CachePath>SFX/MetalScrape1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="883538488" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fuel.wav</ShortName>
 					<CachePath>SFX/Fuel_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1024017940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spark2.wav</ShortName>
+					<CachePath>SFX/Spark2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1047621286" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StoneScratch1.wav</ShortName>
+					<CachePath>SFX/StoneScratch1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1052424853" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spark3.wav</ShortName>
+					<CachePath>SFX/Spark3_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="1917381476" Name="Play_ButtonOver" DurationType="OneShot" DurationMin="1.0681633" DurationMax="1.0681633">
+					<MediaRefs>
+						<MediaRef Id="662469755"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3138318983" Name="Play_ButtonPressDown" DurationType="OneShot" DurationMin="1.2269974" DurationMax="1.2269974">
+					<MediaRefs>
+						<MediaRef Id="662469755"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4076093797" Name="Play_Drill" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="401132180"/>
@@ -65,6 +127,22 @@
 						<MediaRef Id="883538488"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2764105556" Name="Play_Impact" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="52176519"/>
+						<MediaRef Id="100390140"/>
+						<MediaRef Id="121674942"/>
+						<MediaRef Id="214067460"/>
+						<MediaRef Id="544066936"/>
+						<MediaRef Id="589229231"/>
+						<MediaRef Id="677027441"/>
+						<MediaRef Id="713109001"/>
+						<MediaRef Id="797559395"/>
+						<MediaRef Id="1024017940"/>
+						<MediaRef Id="1047621286"/>
+						<MediaRef Id="1052424853"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2958894185" Name="Play_Treasure" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="403842014"/>
@@ -73,13 +151,13 @@
 				<Event Id="376381163" Name="Stop_Drill" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2C229AE6-EA5C-0162-96D2-EB6769CD1495}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{D0640232-371C-15CF-6BA5-5DB7F2E1945F}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
-				<File Id="19875762" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="106472373" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dune Rush Menu Intro.wav</ShortName>
-					<CachePath>SFX/Dune Rush Menu Intro_818F3B66.wem</CachePath>
+					<CachePath>SFX/Dune Rush Menu Intro_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="137574788" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dune Rush Gameplay loop E-01.wav</ShortName>
@@ -139,16 +217,6 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2720335842" Name="Play_Dune_Rush_Menu_Intro" DurationType="OneShot" DurationMin="6.5306044" DurationMax="6.5306044">
-					<MediaRefs>
-						<MediaRef Id="19875762"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2435933422" Name="Play_Dune_Rush_Menu_Loop" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="277582777"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="4294752536" Name="Play_GameStateMusic" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -176,8 +244,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1605173404" Name="Stop_Dune_Rush_Menu_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2570041344" Name="Play_MenuMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="106472373"/>
+						<MediaRef Id="277582777"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1696622214" Name="Stop_GameStateMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2753202630" Name="Stop_MenuMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="4091656514" Name="GameState">
@@ -189,5 +263,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F09FE7E4-4A93-F722-3DF6-1321E16F5B26}</FileHash>
+	<FileHash>{065ADE6E-6BDD-0C24-23C5-6729964144BC}</FileHash>
 </SoundBanksInfo>

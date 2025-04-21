@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a7a6d7c49839504b8c6af1812bafcf9e
     GuidInternal: 
-    m_lastTime: -8584571773810692960
+    m_lastTime: -8584565973452107998
     List:
     - name: Music
       guid: 63daefb7aaf3024b91be9141016a6a66
@@ -108,8 +108,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ea580007c7179c49b5695cb8204e286c
     GuidInternal: 
-    m_lastTime: -8584571773810980883
+    m_lastTime: -8584565973572576417
     List:
+    - name: Play_ButtonOver
+      guid: a9c901139cb2884e9840e862bb3b19c7
+      id: 1917381476
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_ButtonOver
+        ObjectType: 3
+        guid: a9c901139cb2884e9840e862bb3b19c7
+      Path: Events\Default Work Unit\Play_ButtonOver
+      maxAttenuation: 0
+      maxDuration: 1.0681633
+      minDuration: 1.0681633
+    - name: Play_ButtonPressDown
+      guid: 46bdcc9c83ac2e45b7d11837474d6b5d
+      id: 3138318983
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_ButtonPressDown
+        ObjectType: 3
+        guid: 46bdcc9c83ac2e45b7d11837474d6b5d
+      Path: Events\Default Work Unit\Play_ButtonPressDown
+      maxAttenuation: 0
+      maxDuration: 1.2269974
+      minDuration: 1.2269974
     - name: Play_Drill
       guid: 0185c5e10e837f43851e7de11ccc73f8
       id: 4076093797
@@ -124,40 +158,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0185c5e10e837f43851e7de11ccc73f8
       Path: Events\Default Work Unit\Play_Drill
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Dune_Rush_Menu_Intro
-      guid: 86008fbadaf1c64eb9382f628fd958ee
-      id: 2720335842
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ea580007c7179c49b5695cb8204e286c
-      - ElementName: Play_Dune_Rush_Menu_Intro
-        ObjectType: 3
-        guid: 86008fbadaf1c64eb9382f628fd958ee
-      Path: Events\Default Work Unit\Play_Dune_Rush_Menu_Intro
-      maxAttenuation: 0
-      maxDuration: 6.5306044
-      minDuration: 6.5306044
-    - name: Play_Dune_Rush_Menu_Loop
-      guid: d689015b830b3646adb9eade2e4a5516
-      id: 2435933422
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ea580007c7179c49b5695cb8204e286c
-      - ElementName: Play_Dune_Rush_Menu_Loop
-        ObjectType: 3
-        guid: d689015b830b3646adb9eade2e4a5516
-      Path: Events\Default Work Unit\Play_Dune_Rush_Menu_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -195,6 +195,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_MenuMusic
+      guid: 87e84fe47dd4294f9fc6f15483cc2b5c
+      id: 2570041344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Play_MenuMusic
+        ObjectType: 3
+        guid: 87e84fe47dd4294f9fc6f15483cc2b5c
+      Path: Events\Default Work Unit\Play_MenuMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Treasure
       guid: 69f5093846634f4395f9c2e3cf80f51d
       id: 2958894185
@@ -229,23 +246,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Stop_Dune_Rush_Menu_Loop
-      guid: a5337ed38710064bb862c6b332247fb6
-      id: 1605173404
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ea580007c7179c49b5695cb8204e286c
-      - ElementName: Stop_Dune_Rush_Menu_Loop
-        ObjectType: 3
-        guid: a5337ed38710064bb862c6b332247fb6
-      Path: Events\Default Work Unit\Stop_Dune_Rush_Menu_Loop
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Stop_GameStateMusic
       guid: d1cdcfcfcaf0664d860faa65916bbc94
       id: 1696622214
@@ -260,6 +260,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: d1cdcfcfcaf0664d860faa65916bbc94
       Path: Events\Default Work Unit\Stop_GameStateMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_MenuMusic
+      guid: 1f4270076e4de245bdf606cb0fbc5db1
+      id: 2753202630
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ea580007c7179c49b5695cb8204e286c
+      - ElementName: Stop_MenuMusic
+        ObjectType: 3
+        guid: 1f4270076e4de245bdf606cb0fbc5db1
+      Path: Events\Default Work Unit\Stop_MenuMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
